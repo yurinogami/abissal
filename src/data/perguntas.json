@@ -3772,5 +3772,1489 @@
         ]
       }
     ]
+  },
+  {
+    "id": "planetas-anoes",
+    "pergunta": "Cite um planeta anão do Sistema Solar.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Plutão",
+        "p": 1
+      },
+      {
+        "r": "Ceres",
+        "p": 5
+      },
+      {
+        "r": "Éris",
+        "p": 6
+      },
+      {
+        "r": "Haumea",
+        "p": 9
+      },
+      {
+        "r": "Makemake",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "luas-galileanas",
+    "pergunta": "Cite uma das quatro luas galileanas de Júpiter.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Europa",
+        "p": 2
+      },
+      {
+        "r": "Io",
+        "p": 3
+      },
+      {
+        "r": "Ganimedes",
+        "p": 4
+      },
+      {
+        "r": "Calisto",
+        "p": 5
+      }
+    ]
+  },
+  {
+    "id": "fases-lua",
+    "pergunta": "Cite uma fase da Lua.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Cheia",
+        "p": 1
+      },
+      {
+        "r": "Crescente",
+        "p": 1
+      },
+      {
+        "r": "Nova",
+        "p": 2
+      },
+      {
+        "r": "Minguante",
+        "p": 2
+      }
+    ],
+    "ignorarPrefixo": "lua"
+  },
+  {
+    "id": "metais-alcalinos",
+    "pergunta": "Cite um metal alcalino (família 1 da tabela periódica). Vale nome ou símbolo.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Lítio",
+        "p": 1,
+        "alias": [
+          "li"
+        ]
+      },
+      {
+        "r": "Sódio",
+        "p": 2,
+        "alias": [
+          "na"
+        ]
+      },
+      {
+        "r": "Potássio",
+        "p": 2,
+        "alias": [
+          "k"
+        ]
+      },
+      {
+        "r": "Césio",
+        "p": 6,
+        "alias": [
+          "cs"
+        ]
+      },
+      {
+        "r": "Rubídio",
+        "p": 7,
+        "alias": [
+          "rb"
+        ]
+      },
+      {
+        "r": "Frâncio",
+        "p": 8,
+        "alias": [
+          "fr"
+        ]
+      }
+    ],
+    "mensagens": {
+      "hidrogenio": "O hidrogênio fica na coluna 1, mas não é metal alcalino!",
+      "h": "O hidrogênio fica na coluna 1, mas não é metal alcalino!",
+      "cerio": "O cério é um lantanídeo, não metal alcalino."
+    }
+  },
+  {
+    "id": "alcalino-terrosos",
+    "pergunta": "Cite um metal alcalino-terroso (família 2). Vale nome ou símbolo.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Cálcio",
+        "p": 1,
+        "alias": [
+          "ca"
+        ]
+      },
+      {
+        "r": "Magnésio",
+        "p": 2,
+        "alias": [
+          "mg"
+        ]
+      },
+      {
+        "r": "Bário",
+        "p": 5,
+        "alias": [
+          "ba"
+        ]
+      },
+      {
+        "r": "Berílio",
+        "p": 6,
+        "alias": [
+          "be"
+        ]
+      },
+      {
+        "r": "Estrôncio",
+        "p": 7,
+        "alias": [
+          "sr"
+        ]
+      },
+      {
+        "r": "Rádio",
+        "p": 7,
+        "alias": [
+          "ra"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "halogenios",
+    "pergunta": "Cite um halogênio (família 17). Vale nome ou símbolo.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Cloro",
+        "p": 1,
+        "alias": [
+          "cl"
+        ]
+      },
+      {
+        "r": "Flúor",
+        "p": 2,
+        "alias": [
+          "f"
+        ]
+      },
+      {
+        "r": "Iodo",
+        "p": 3,
+        "alias": [
+          "i"
+        ]
+      },
+      {
+        "r": "Bromo",
+        "p": 4,
+        "alias": [
+          "br"
+        ]
+      },
+      {
+        "r": "Astato",
+        "p": 8,
+        "alias": [
+          "at"
+        ]
+      },
+      {
+        "r": "Tenessino",
+        "p": 10,
+        "alias": [
+          "ts",
+          "tennessine"
+        ]
+      }
+    ],
+    "mensagens": {
+      "cromo": "O cromo é um metal de transição, não halogênio.",
+      "boro": "O boro é da família 13, não halogênio."
+    }
+  },
+  {
+    "id": "elementos-letra-c",
+    "pergunta": "Cite um elemento químico cujo símbolo começa com a letra C. Vale nome ou símbolo.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Carbono",
+        "p": 1,
+        "alias": [
+          "c"
+        ]
+      },
+      {
+        "r": "Cálcio",
+        "p": 2,
+        "alias": [
+          "ca"
+        ]
+      },
+      {
+        "r": "Cloro",
+        "p": 2,
+        "alias": [
+          "cl"
+        ]
+      },
+      {
+        "r": "Cobre",
+        "p": 3,
+        "alias": [
+          "cu"
+        ]
+      },
+      {
+        "r": "Cobalto",
+        "p": 5,
+        "alias": [
+          "co"
+        ]
+      },
+      {
+        "r": "Cromo",
+        "p": 5,
+        "alias": [
+          "cr"
+        ]
+      },
+      {
+        "r": "Cádmio",
+        "p": 6,
+        "alias": [
+          "cd"
+        ]
+      },
+      {
+        "r": "Césio",
+        "p": 7,
+        "alias": [
+          "cs"
+        ]
+      },
+      {
+        "r": "Cúrio",
+        "p": 8,
+        "alias": [
+          "cm"
+        ]
+      },
+      {
+        "r": "Califórnio",
+        "p": 8,
+        "alias": [
+          "cf"
+        ]
+      },
+      {
+        "r": "Cério",
+        "p": 9,
+        "alias": [
+          "ce"
+        ]
+      },
+      {
+        "r": "Copernício",
+        "p": 10,
+        "alias": [
+          "cn"
+        ]
+      }
+    ],
+    "mensagens": {
+      "chumbo": "Chumbo é Pb, do latim plumbum!",
+      "pb": "Chumbo é Pb, do latim plumbum!",
+      "bromo": "Bromo é Br, começa com B!"
+    }
+  },
+  {
+    "id": "estados-materia",
+    "pergunta": "Cite um estado físico da matéria.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Sólido",
+        "p": 1
+      },
+      {
+        "r": "Líquido",
+        "p": 1
+      },
+      {
+        "r": "Gasoso",
+        "p": 1,
+        "alias": [
+          "gas"
+        ]
+      },
+      {
+        "r": "Plasma",
+        "p": 6
+      },
+      {
+        "r": "Condensado de Bose-Einstein",
+        "p": 9,
+        "alias": [
+          "bose einstein"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camadas-atmosfera",
+    "pergunta": "Cite uma camada da atmosfera terrestre.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Estratosfera",
+        "p": 2
+      },
+      {
+        "r": "Troposfera",
+        "p": 3
+      },
+      {
+        "r": "Camada de ozônio",
+        "p": 4,
+        "alias": [
+          "ozonosfera"
+        ]
+      },
+      {
+        "r": "Mesosfera",
+        "p": 5
+      },
+      {
+        "r": "Termosfera",
+        "p": 5
+      },
+      {
+        "r": "Exosfera",
+        "p": 6
+      },
+      {
+        "r": "Ionosfera",
+        "p": 6
+      }
+    ]
+  },
+  {
+    "id": "nuvens",
+    "pergunta": "Cite um tipo de nuvem.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Cúmulo",
+        "p": 1,
+        "alias": [
+          "cumulus"
+        ]
+      },
+      {
+        "r": "Cirro",
+        "p": 3,
+        "alias": [
+          "cirrus"
+        ]
+      },
+      {
+        "r": "Estrato",
+        "p": 3,
+        "alias": [
+          "stratus"
+        ]
+      },
+      {
+        "r": "Cúmulo-nimbo",
+        "p": 3,
+        "alias": [
+          "cumulonimbus"
+        ]
+      },
+      {
+        "r": "Nimbo-estrato",
+        "p": 5,
+        "alias": [
+          "nimbostratus"
+        ]
+      },
+      {
+        "r": "Estrato-cúmulo",
+        "p": 6,
+        "alias": [
+          "stratocumulus"
+        ]
+      },
+      {
+        "r": "Alto-cúmulo",
+        "p": 6,
+        "alias": [
+          "altocumulus"
+        ]
+      },
+      {
+        "r": "Alto-estrato",
+        "p": 7,
+        "alias": [
+          "altostratus"
+        ]
+      },
+      {
+        "r": "Cirro-cúmulo",
+        "p": 7,
+        "alias": [
+          "cirrocumulus"
+        ]
+      },
+      {
+        "r": "Cirro-estrato",
+        "p": 7,
+        "alias": [
+          "cirrostratus"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unidades-si",
+    "pergunta": "Cite uma das sete unidades de base do Sistema Internacional (SI).",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Metro",
+        "p": 1
+      },
+      {
+        "r": "Quilograma",
+        "p": 2,
+        "alias": [
+          "kg",
+          "quilo"
+        ]
+      },
+      {
+        "r": "Segundo",
+        "p": 2
+      },
+      {
+        "r": "Ampere",
+        "p": 4,
+        "alias": [
+          "ampère"
+        ]
+      },
+      {
+        "r": "Kelvin",
+        "p": 4
+      },
+      {
+        "r": "Mol",
+        "p": 6
+      },
+      {
+        "r": "Candela",
+        "p": 8
+      }
+    ],
+    "mensagens": {
+      "grama": "Quase! A unidade de base é o quilograma.",
+      "litro": "O litro é aceito no SI, mas não é unidade de base."
+    }
+  },
+  {
+    "id": "vitaminas",
+    "pergunta": "Cite uma vitamina.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Vitamina C",
+        "p": 1,
+        "alias": [
+          "acido ascorbico"
+        ]
+      },
+      {
+        "r": "Vitamina D",
+        "p": 2,
+        "alias": [
+          "calciferol"
+        ]
+      },
+      {
+        "r": "Vitamina A",
+        "p": 2,
+        "alias": [
+          "retinol"
+        ]
+      },
+      {
+        "r": "Complexo B",
+        "p": 3,
+        "alias": [
+          "b",
+          "vitamina b"
+        ]
+      },
+      {
+        "r": "Vitamina B12",
+        "p": 4,
+        "alias": [
+          "b 12",
+          "cobalamina"
+        ]
+      },
+      {
+        "r": "Vitamina E",
+        "p": 4,
+        "alias": [
+          "tocoferol"
+        ]
+      },
+      {
+        "r": "Vitamina K",
+        "p": 5
+      },
+      {
+        "r": "Vitamina B9",
+        "p": 6,
+        "alias": [
+          "b 9",
+          "acido folico",
+          "folato"
+        ]
+      },
+      {
+        "r": "Vitamina B1",
+        "p": 6,
+        "alias": [
+          "b 1",
+          "tiamina"
+        ]
+      },
+      {
+        "r": "Vitamina B2",
+        "p": 7,
+        "alias": [
+          "b 2",
+          "riboflavina"
+        ]
+      },
+      {
+        "r": "Vitamina B3",
+        "p": 7,
+        "alias": [
+          "b 3",
+          "niacina"
+        ]
+      },
+      {
+        "r": "Vitamina B6",
+        "p": 7,
+        "alias": [
+          "b 6",
+          "piridoxina"
+        ]
+      },
+      {
+        "r": "Vitamina B5",
+        "p": 8,
+        "alias": [
+          "b 5",
+          "acido pantotenico"
+        ]
+      },
+      {
+        "r": "Vitamina B7",
+        "p": 8,
+        "alias": [
+          "b 7",
+          "biotina"
+        ]
+      }
+    ],
+    "ignorarPrefixo": "vitamina"
+  },
+  {
+    "id": "orgaos",
+    "pergunta": "Cite um órgão do corpo humano.",
+    "categoria": "corpo-humano",
+    "respostas": [
+      {
+        "r": "Coração",
+        "p": 1
+      },
+      {
+        "r": "Pulmão",
+        "p": 1,
+        "alias": [
+          "pulmoes"
+        ]
+      },
+      {
+        "r": "Cérebro",
+        "p": 1
+      },
+      {
+        "r": "Fígado",
+        "p": 1
+      },
+      {
+        "r": "Rim",
+        "p": 1,
+        "alias": [
+          "rins"
+        ]
+      },
+      {
+        "r": "Estômago",
+        "p": 1
+      },
+      {
+        "r": "Intestino",
+        "p": 2,
+        "alias": [
+          "intestino delgado",
+          "intestino grosso"
+        ]
+      },
+      {
+        "r": "Pâncreas",
+        "p": 3
+      },
+      {
+        "r": "Bexiga",
+        "p": 3
+      },
+      {
+        "r": "Olho",
+        "p": 3
+      },
+      {
+        "r": "Baço",
+        "p": 4
+      },
+      {
+        "r": "Pele",
+        "p": 4
+      },
+      {
+        "r": "Vesícula biliar",
+        "p": 4,
+        "alias": [
+          "vesicula"
+        ]
+      },
+      {
+        "r": "Esôfago",
+        "p": 4
+      },
+      {
+        "r": "Útero",
+        "p": 4
+      },
+      {
+        "r": "Língua",
+        "p": 4
+      },
+      {
+        "r": "Nariz",
+        "p": 4
+      },
+      {
+        "r": "Ouvido",
+        "p": 4
+      },
+      {
+        "r": "Tireoide",
+        "p": 5
+      },
+      {
+        "r": "Ovário",
+        "p": 5
+      },
+      {
+        "r": "Próstata",
+        "p": 5
+      },
+      {
+        "r": "Testículo",
+        "p": 5
+      },
+      {
+        "r": "Traqueia",
+        "p": 5
+      },
+      {
+        "r": "Apêndice",
+        "p": 5
+      },
+      {
+        "r": "Laringe",
+        "p": 6
+      },
+      {
+        "r": "Faringe",
+        "p": 6
+      },
+      {
+        "r": "Medula espinhal",
+        "p": 7
+      },
+      {
+        "r": "Glândula suprarrenal",
+        "p": 8,
+        "alias": [
+          "suprarrenal",
+          "adrenal"
+        ]
+      },
+      {
+        "r": "Hipófise",
+        "p": 8,
+        "alias": [
+          "pituitaria"
+        ]
+      },
+      {
+        "r": "Timo",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "musculos",
+    "pergunta": "Cite um músculo do corpo humano.",
+    "categoria": "corpo-humano",
+    "respostas": [
+      {
+        "r": "Bíceps",
+        "p": 1
+      },
+      {
+        "r": "Tríceps",
+        "p": 2
+      },
+      {
+        "r": "Glúteo",
+        "p": 2
+      },
+      {
+        "r": "Abdominal",
+        "p": 2,
+        "alias": [
+          "abdomen",
+          "reto abdominal"
+        ]
+      },
+      {
+        "r": "Peitoral",
+        "p": 2
+      },
+      {
+        "r": "Quadríceps",
+        "p": 3
+      },
+      {
+        "r": "Panturrilha",
+        "p": 3,
+        "alias": [
+          "gastrocnemio"
+        ]
+      },
+      {
+        "r": "Deltoide",
+        "p": 4
+      },
+      {
+        "r": "Trapézio",
+        "p": 4
+      },
+      {
+        "r": "Dorsal",
+        "p": 4,
+        "alias": [
+          "grande dorsal"
+        ]
+      },
+      {
+        "r": "Diafragma",
+        "p": 5
+      },
+      {
+        "r": "Oblíquo",
+        "p": 5
+      },
+      {
+        "r": "Isquiotibiais",
+        "p": 6,
+        "alias": [
+          "posterior de coxa"
+        ]
+      },
+      {
+        "r": "Adutor",
+        "p": 6
+      },
+      {
+        "r": "Miocárdio",
+        "p": 6
+      },
+      {
+        "r": "Masseter",
+        "p": 7
+      },
+      {
+        "r": "Sóleo",
+        "p": 7
+      },
+      {
+        "r": "Serrátil",
+        "p": 7
+      },
+      {
+        "r": "Sartório",
+        "p": 8
+      },
+      {
+        "r": "Romboide",
+        "p": 8
+      },
+      {
+        "r": "Tibial anterior",
+        "p": 8
+      },
+      {
+        "r": "Bucinador",
+        "p": 9
+      },
+      {
+        "r": "Platisma",
+        "p": 9
+      },
+      {
+        "r": "Esternocleidomastoideo",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "sentidos",
+    "pergunta": "Cite um dos cinco sentidos.",
+    "categoria": "corpo-humano",
+    "respostas": [
+      {
+        "r": "Visão",
+        "p": 1,
+        "alias": [
+          "vista"
+        ]
+      },
+      {
+        "r": "Audição",
+        "p": 1
+      },
+      {
+        "r": "Tato",
+        "p": 2
+      },
+      {
+        "r": "Olfato",
+        "p": 2
+      },
+      {
+        "r": "Paladar",
+        "p": 2,
+        "alias": [
+          "gustacao",
+          "gosto"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tipos-dente",
+    "pergunta": "Cite um tipo de dente humano.",
+    "categoria": "corpo-humano",
+    "respostas": [
+      {
+        "r": "Molar",
+        "p": 1,
+        "alias": [
+          "siso",
+          "dente do siso"
+        ]
+      },
+      {
+        "r": "Canino",
+        "p": 1
+      },
+      {
+        "r": "Incisivo",
+        "p": 2
+      },
+      {
+        "r": "Pré-molar",
+        "p": 3
+      }
+    ],
+    "mensagens": {
+      "dente de leite": "Dente de leite é uma fase, não um tipo de dente."
+    }
+  },
+  {
+    "id": "felinos",
+    "pergunta": "Cite um felino.",
+    "categoria": "natureza",
+    "respostas": [
+      {
+        "r": "Leão",
+        "p": 1
+      },
+      {
+        "r": "Tigre",
+        "p": 1
+      },
+      {
+        "r": "Onça-pintada",
+        "p": 1,
+        "alias": [
+          "onca",
+          "jaguar"
+        ]
+      },
+      {
+        "r": "Gato",
+        "p": 1,
+        "alias": [
+          "gato domestico"
+        ]
+      },
+      {
+        "r": "Leopardo",
+        "p": 2,
+        "alias": [
+          "pantera",
+          "pantera negra"
+        ]
+      },
+      {
+        "r": "Guepardo",
+        "p": 3,
+        "alias": [
+          "chita",
+          "cheetah"
+        ]
+      },
+      {
+        "r": "Lince",
+        "p": 3
+      },
+      {
+        "r": "Puma",
+        "p": 4,
+        "alias": [
+          "sucuarana",
+          "onca parda",
+          "leao da montanha"
+        ]
+      },
+      {
+        "r": "Jaguatirica",
+        "p": 4,
+        "alias": [
+          "ocelote"
+        ]
+      },
+      {
+        "r": "Leopardo-das-neves",
+        "p": 6
+      },
+      {
+        "r": "Gato-do-mato",
+        "p": 6
+      },
+      {
+        "r": "Gato-bravo",
+        "p": 7,
+        "alias": [
+          "gato selvagem"
+        ]
+      },
+      {
+        "r": "Caracal",
+        "p": 8
+      },
+      {
+        "r": "Serval",
+        "p": 8
+      },
+      {
+        "r": "Gato-maracajá",
+        "p": 8,
+        "alias": [
+          "maracaja"
+        ]
+      },
+      {
+        "r": "Jaguarundi",
+        "p": 8,
+        "alias": [
+          "gato mourisco"
+        ]
+      },
+      {
+        "r": "Gato-palheiro",
+        "p": 9
+      },
+      {
+        "r": "Leopardo-nebuloso",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "aves-nao-voam",
+    "pergunta": "Cite uma ave que não voa.",
+    "categoria": "natureza",
+    "respostas": [
+      {
+        "r": "Avestruz",
+        "p": 1
+      },
+      {
+        "r": "Pinguim",
+        "p": 1
+      },
+      {
+        "r": "Ema",
+        "p": 2,
+        "alias": [
+          "nandu"
+        ]
+      },
+      {
+        "r": "Emu",
+        "p": 5
+      },
+      {
+        "r": "Kiwi",
+        "p": 5
+      },
+      {
+        "r": "Dodô",
+        "p": 5
+      },
+      {
+        "r": "Casuar",
+        "p": 7
+      },
+      {
+        "r": "Kakapo",
+        "p": 9
+      },
+      {
+        "r": "Moa",
+        "p": 9
+      }
+    ],
+    "mensagens": {
+      "galinha": "A galinha voa um pouquinho! Tenta outra.",
+      "pato": "O pato voa, sim!"
+    }
+  },
+  {
+    "id": "marsupiais",
+    "pergunta": "Cite um marsupial.",
+    "categoria": "natureza",
+    "respostas": [
+      {
+        "r": "Canguru",
+        "p": 1
+      },
+      {
+        "r": "Coala",
+        "p": 1,
+        "alias": [
+          "koala"
+        ]
+      },
+      {
+        "r": "Gambá",
+        "p": 3
+      },
+      {
+        "r": "Diabo-da-tasmânia",
+        "p": 4,
+        "alias": [
+          "demonio da tasmania"
+        ]
+      },
+      {
+        "r": "Wallaby",
+        "p": 6,
+        "alias": [
+          "valabi"
+        ]
+      },
+      {
+        "r": "Vombate",
+        "p": 7,
+        "alias": [
+          "wombat"
+        ]
+      },
+      {
+        "r": "Cuíca",
+        "p": 7
+      },
+      {
+        "r": "Petauro",
+        "p": 8,
+        "alias": [
+          "petauro do acucar"
+        ]
+      },
+      {
+        "r": "Bandicoot",
+        "p": 8
+      },
+      {
+        "r": "Numbat",
+        "p": 9
+      },
+      {
+        "r": "Tilacino",
+        "p": 9,
+        "alias": [
+          "lobo da tasmania",
+          "tigre da tasmania"
+        ]
+      }
+    ],
+    "mensagens": {
+      "ornitorrinco": "O ornitorrinco bota ovos: é monotremado, não marsupial."
+    }
+  },
+  {
+    "id": "dinossauros",
+    "pergunta": "Cite um dinossauro.",
+    "categoria": "natureza",
+    "respostas": [
+      {
+        "r": "Tiranossauro",
+        "p": 1,
+        "alias": [
+          "t rex",
+          "trex",
+          "tiranossauro rex",
+          "tyrannosaurus"
+        ]
+      },
+      {
+        "r": "Velociraptor",
+        "p": 1,
+        "alias": [
+          "raptor"
+        ]
+      },
+      {
+        "r": "Tricerátopo",
+        "p": 2,
+        "alias": [
+          "triceratops"
+        ]
+      },
+      {
+        "r": "Estegossauro",
+        "p": 3,
+        "alias": [
+          "stegosaurus"
+        ]
+      },
+      {
+        "r": "Braquiossauro",
+        "p": 4,
+        "alias": [
+          "brachiosaurus"
+        ]
+      },
+      {
+        "r": "Diplodoco",
+        "p": 4,
+        "alias": [
+          "diplodocus"
+        ]
+      },
+      {
+        "r": "Espinossauro",
+        "p": 4,
+        "alias": [
+          "spinosaurus"
+        ]
+      },
+      {
+        "r": "Anquilossauro",
+        "p": 5,
+        "alias": [
+          "ankylosaurus"
+        ]
+      },
+      {
+        "r": "Brontossauro",
+        "p": 5
+      },
+      {
+        "r": "Apatossauro",
+        "p": 6
+      },
+      {
+        "r": "Alossauro",
+        "p": 6,
+        "alias": [
+          "allosaurus"
+        ]
+      },
+      {
+        "r": "Iguanodonte",
+        "p": 6
+      },
+      {
+        "r": "Parassaurolofo",
+        "p": 7
+      },
+      {
+        "r": "Paquicefalossauro",
+        "p": 7
+      },
+      {
+        "r": "Carnotauro",
+        "p": 7
+      },
+      {
+        "r": "Giganotossauro",
+        "p": 7
+      },
+      {
+        "r": "Dilofossauro",
+        "p": 7
+      },
+      {
+        "r": "Compsognato",
+        "p": 8
+      },
+      {
+        "r": "Argentinossauro",
+        "p": 8
+      },
+      {
+        "r": "Oviraptor",
+        "p": 8
+      },
+      {
+        "r": "Galimimo",
+        "p": 8
+      },
+      {
+        "r": "Estauricossauro",
+        "p": 10
+      }
+    ],
+    "mensagens": {
+      "pteranodonte": "O pteranodonte era um réptil voador, não um dinossauro!",
+      "pterodactilo": "O pterodáctilo era um réptil voador, não um dinossauro!",
+      "plesiossauro": "O plesiossauro era um réptil marinho, não um dinossauro!",
+      "mamute": "O mamute é um mamífero, bem mais recente!"
+    }
+  },
+  {
+    "id": "animais-cedulas",
+    "pergunta": "Cite um animal que aparece numa cédula do Real.",
+    "categoria": "natureza",
+    "respostas": [
+      {
+        "r": "Onça-pintada",
+        "p": 2,
+        "alias": [
+          "onca"
+        ]
+      },
+      {
+        "r": "Mico-leão-dourado",
+        "p": 2,
+        "alias": [
+          "mico leao"
+        ]
+      },
+      {
+        "r": "Lobo-guará",
+        "p": 3
+      },
+      {
+        "r": "Arara",
+        "p": 3,
+        "alias": [
+          "arara vermelha"
+        ]
+      },
+      {
+        "r": "Tartaruga-marinha",
+        "p": 5,
+        "alias": [
+          "tartaruga"
+        ]
+      },
+      {
+        "r": "Garoupa",
+        "p": 7
+      },
+      {
+        "r": "Garça",
+        "p": 7
+      },
+      {
+        "r": "Beija-flor",
+        "p": 8
+      }
+    ]
+  },
+  {
+    "id": "pedras-preciosas",
+    "pergunta": "Cite uma pedra preciosa ou semipreciosa.",
+    "categoria": "natureza",
+    "respostas": [
+      {
+        "r": "Diamante",
+        "p": 1
+      },
+      {
+        "r": "Esmeralda",
+        "p": 1
+      },
+      {
+        "r": "Rubi",
+        "p": 1
+      },
+      {
+        "r": "Safira",
+        "p": 2
+      },
+      {
+        "r": "Ametista",
+        "p": 2
+      },
+      {
+        "r": "Topázio",
+        "p": 3
+      },
+      {
+        "r": "Turquesa",
+        "p": 3
+      },
+      {
+        "r": "Pérola",
+        "p": 3
+      },
+      {
+        "r": "Jade",
+        "p": 4
+      },
+      {
+        "r": "Turmalina",
+        "p": 4
+      },
+      {
+        "r": "Água-marinha",
+        "p": 4
+      },
+      {
+        "r": "Quartzo",
+        "p": 4
+      },
+      {
+        "r": "Opala",
+        "p": 5
+      },
+      {
+        "r": "Ônix",
+        "p": 5
+      },
+      {
+        "r": "Granada",
+        "p": 6
+      },
+      {
+        "r": "Citrino",
+        "p": 6
+      },
+      {
+        "r": "Ágata",
+        "p": 6
+      },
+      {
+        "r": "Âmbar",
+        "p": 6
+      },
+      {
+        "r": "Obsidiana",
+        "p": 6
+      },
+      {
+        "r": "Lápis-lazúli",
+        "p": 7
+      },
+      {
+        "r": "Malaquita",
+        "p": 7
+      },
+      {
+        "r": "Jaspe",
+        "p": 7
+      },
+      {
+        "r": "Alexandrita",
+        "p": 8
+      },
+      {
+        "r": "Tanzanita",
+        "p": 8
+      },
+      {
+        "r": "Morganita",
+        "p": 9
+      }
+    ]
   }
 ]
