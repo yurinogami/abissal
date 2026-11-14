@@ -10,3 +10,6 @@ PLANO_ABISSAL.md
 INSTRUCOES_GITHUB.md
 PROGRESSO.md
 *.local.md
+
+# Configurações locais do Claude Code
+.claude/
