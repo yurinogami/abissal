@@ -1,17 +1,4 @@
-/* Base provisória da Fase 2. Tokens, fontes e degradê de profundidade chegam na Fase 3. */
-:root {
-  --fundo: #0d2a4a;
-  --cartao: rgba(255, 255, 255, 0.06);
-  --borda: rgba(255, 255, 255, 0.16);
-  --texto: #e8f4f8;
-  --texto-suave: #9fb8c8;
-  --destaque: #7cf5d2;
-  --alerta: #ff6b6b;
-  --raro: #ffd166;
-  --medio: #c7a6ff;
-  --raio: 14px;
-  color-scheme: dark;
-}
+/* Estilos de base. As cores e fontes vêm de tokens.css. */
 
 *,
 *::before,
@@ -27,21 +14,59 @@ body {
   margin: 0;
   min-height: 100vh;
   min-height: 100dvh;
-  background: var(--fundo);
+  background: var(--abismo);
   color: var(--texto);
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--fonte-corpo);
   font-size: 1rem;
   line-height: 1.5;
 }
 
+/* O mar: degradê da superfície à fossa. A janela "desce" por ele conforme --profundidade. */
+.oceano {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background-color: var(--abismo);
+  background-image:
+    linear-gradient(var(--pelicula), var(--pelicula)),
+    linear-gradient(
+      180deg,
+      var(--superficie) 0%,
+      var(--crepusculo) 25%,
+      var(--meia-noite) 50%,
+      var(--abismo) 75%,
+      var(--fossa) 100%
+    );
+  background-size: 100% 100%, 100% 400%;
+  background-position: 0 0, 0 calc(var(--profundidade) * 100%);
+  transition: background-position 1.6s ease-in-out;
+}
+
+.oceano canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .oceano {
+    transition: none;
+  }
+}
+
 #app {
-  max-width: 560px;
+  position: relative;
+  max-width: var(--coluna);
   margin: 0 auto;
   padding: 24px 16px 48px;
 }
 
 h1,
 h2 {
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
   line-height: 1.2;
   margin: 0;
 }
@@ -52,11 +77,11 @@ h2:focus {
 }
 
 a {
-  color: var(--destaque);
+  color: var(--bioluz);
 }
 
 :focus-visible {
-  outline: 3px solid var(--destaque);
+  outline: 3px solid var(--bioluz);
   outline-offset: 3px;
 }
 
@@ -95,8 +120,9 @@ kbd {
 }
 
 .botao-principal {
-  background: var(--destaque);
-  color: #06111f;
+  box-shadow: 0 0 18px rgba(124, 245, 210, 0.35);
+  background: var(--bioluz);
+  color: var(--tinta);
 }
 
 .botao-secundario {
@@ -114,6 +140,8 @@ kbd {
   border: 1px solid var(--borda);
   border-radius: var(--raio);
   padding: 16px;
+  box-shadow: var(--sombra);
+  backdrop-filter: blur(6px);
 }
 
 .rotulo {

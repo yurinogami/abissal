@@ -1,9 +1,11 @@
 import { TEMPO_POR_PERGUNTA } from "../../game/engine";
+import { definirProfundidade } from "../components/oceano";
 import { definirTitulo } from "../dom";
 import type { Tela } from "../router";
 
 export const telaComoJogar: Tela = (raiz) => {
   definirTitulo("Como jogar");
+  definirProfundidade(0);
   raiz.innerHTML = `
     <section class="tela tela-como-jogar">
       <h1 tabindex="-1">Como jogar</h1>

@@ -1,3 +1,4 @@
+import lumeSvg from "../../assets/lume.svg?raw";
 import { esc } from "../dom";
 
 /** Falas do Lume (seção 2 do plano). */
@@ -22,15 +23,15 @@ export type Lume = {
 };
 
 /**
- * O Lume, peixe-lanterna que comenta o jogo. Nesta fase é só um balão de fala;
- * o desenho em SVG chega na Fase 3.
+ * O Lume, peixe-lanterna que comenta o jogo. A luz da antena muda com o humor:
+ * brilha dourada num acerto raro e quase apaga num erro.
  */
 export function criarLume(textoInicial: string = FALAS.inicio): Lume {
   const elemento = document.createElement("aside");
   elemento.className = "lume";
   elemento.dataset.humor = "neutro";
   elemento.innerHTML = `
-    <div class="lume-avatar" aria-hidden="true">🐟</div>
+    <div class="lume-avatar" aria-hidden="true">${lumeSvg}</div>
     <p class="lume-fala"><span class="sr-only">Lume diz: </span><span class="lume-texto">${esc(textoInicial)}</span></p>
   `;
   const texto = elemento.querySelector<HTMLElement>(".lume-texto")!;
@@ -40,6 +41,10 @@ export function criarLume(textoInicial: string = FALAS.inicio): Lume {
     falar(novoTexto, humor = "neutro") {
       texto.textContent = novoTexto;
       elemento.dataset.humor = humor;
+      // Reinicia a animação de "piscar" a luz a cada fala.
+      elemento.classList.remove("falando");
+      void elemento.offsetWidth;
+      elemento.classList.add("falando");
     },
   };
 }

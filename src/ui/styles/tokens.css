@@ -1,0 +1,39 @@
+/* Tokens visuais do Abissal (seção 6 do plano). Tema único, escuro. */
+:root {
+  /* Água, da superfície à fossa */
+  --superficie: #2ec4c9;
+  --crepusculo: #1a5f8a;
+  --meia-noite: #0d2a4a;
+  --abismo: #06111f;
+  --fossa: #020509;
+
+  /* Texto e destaques */
+  --texto: #e8f4f8;
+  /* Mais claro que o #9fb8c8 do plano: o original não passa no contraste AA sobre a água rasa. */
+  --texto-suave: #b8ccd8;
+  --bioluz: #7cf5d2; /* luz do Lume, acertos */
+  --alerta: #ff6b6b; /* erro, tempo acabando (barras e bordas) */
+  --alerta-texto: #ffb4b4; /* mesmo tom, claro o bastante para texto */
+  --raro: #ffd166; /* respostas raras */
+  --medio: #d4bfff; /* respostas de raridade média */
+  --tinta: #06111f; /* texto sobre botões claros */
+
+  /* Superfícies */
+  --pelicula: rgba(2, 5, 9, 0.58); /* escurece o degradê para o texto ter contraste */
+  --cartao: rgba(2, 5, 9, 0.35);
+  --borda: rgba(232, 244, 248, 0.18);
+
+  /* Fontes */
+  --fonte-titulo: "Fraunces", Georgia, serif;
+  --fonte-corpo: "Nunito", system-ui, sans-serif;
+
+  /* Layout: coluna central de no máximo 560px, medidor à esquerda no desktop */
+  --coluna: 560px;
+  --raio: 14px;
+  --sombra: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+  /* Profundidade atual, de 0 (superfície) a 1 (fossa). Atualizada pelo jogo. */
+  --profundidade: 0;
+
+  color-scheme: dark;
+}

@@ -2,12 +2,14 @@ import { dataHojeBrasilia } from "../../game/daily";
 import { profundidadeDaPartida } from "../../game/engine";
 import { zonaDaProfundidade } from "../../game/scoring";
 import { criarLume, FALAS } from "../components/lume";
+import { definirProfundidade } from "../components/oceano";
 import { definirTitulo, esc, metros } from "../dom";
 import type { Tela } from "../router";
 import { sessao } from "../sessao";
 
 export const telaInicio: Tela = (raiz) => {
   definirTitulo();
+  definirProfundidade(0);
   const hoje = dataHojeBrasilia();
   const diario = sessao.diario?.data === hoje ? sessao.diario : null;
 
