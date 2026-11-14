@@ -339,24 +339,60 @@
   white-space: nowrap;
 }
 
-/* Lume (provisório; o desenho em SVG chega na Fase 3) */
+/* Lume */
 .lume {
   display: flex;
   align-items: flex-end;
-  gap: 10px;
+  gap: 8px;
 }
 
 .lume-avatar {
-  font-size: 2rem;
-  line-height: 1;
+  flex: none;
+  width: 72px;
+  animation: boiar 4s ease-in-out infinite;
+}
+
+.lume-avatar svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.lume-halo,
+.lume-luz {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: opacity 0.4s ease, fill 0.4s ease;
+}
+
+.lume.falando .lume-halo {
+  animation: piscar 0.9s ease-out;
+}
+
+.lume[data-humor="uau"] .lume-luz {
+  fill: var(--raro);
+}
+
+.lume[data-humor="uau"] .lume-halo {
+  transform: scale(1.5);
+}
+
+.lume[data-humor="triste"] .lume-luz {
+  opacity: 0.45;
+}
+
+.lume[data-humor="triste"] .lume-halo {
+  opacity: 0.25;
 }
 
 .lume-fala {
-  margin: 0;
+  margin: 0 0 12px;
   padding: 10px 14px;
   border-radius: var(--raio) var(--raio) var(--raio) 4px;
   background: var(--cartao);
   border: 1px solid var(--borda);
+  backdrop-filter: blur(6px);
 }
 
 .lume[data-humor="uau"] .lume-fala {
@@ -365,6 +401,35 @@
 
 .lume[data-humor="triste"] .lume-fala {
   border-color: var(--alerta);
+}
+
+@keyframes boiar {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(2deg);
+  }
+}
+
+@keyframes piscar {
+  0% {
+    transform: scale(1);
+  }
+  35% {
+    transform: scale(1.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lume-avatar,
+  .lume.falando .lume-halo {
+    animation: none;
+  }
 }
 
 /* Medidor de profundidade: horizontal no celular, vertical à esquerda no desktop */
