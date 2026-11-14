@@ -48,7 +48,21 @@ export function zonaDaProfundidade(metros: number): Zona {
   return zona;
 }
 
-export type Raridade = "erro" | "comum" | "media" | "rara";
+/**
+ * Posição de 0 (superfície) a 1 (fossa) para pintar o fundo. Cada zona ocupa
+ * um quarto do degradê, então o início de cada zona cai numa cor do plano.
+ */
+export function fracaoProfundidade(metros: number): number {
+  const m = Math.max(0, metros);
+  for (let i = 0; i < ZONAS.length - 1; i++) {
+    const inicio = ZONAS[i].minimo;
+    const fim = ZONAS[i + 1].minimo;
+    if (m < fim) return (i + (m - inicio) / (fim - inicio)) / (ZONAS.length - 1);
+  }
+  return 1;
+}
+
+export type Raridade ="erro" | "comum" | "media" | "rara";
 
 /** Classifica os pontos de uma pergunta: 0 erro/pulo, 1–3 comum, 4–6 média, 7–10 rara. */
 export function raridade(pontos: number): Raridade {

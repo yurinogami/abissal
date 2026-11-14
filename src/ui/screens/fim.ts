@@ -2,6 +2,7 @@ import { type Partida, profundidadeDaPartida } from "../../game/engine";
 import { pontosParaMetros, raridade, zonaDaProfundidade } from "../../game/scoring";
 import type { Pergunta } from "../../game/tipos";
 import { criarLume, FALAS } from "../components/lume";
+import { definirProfundidade } from "../components/oceano";
 import { definirTitulo, esc, metros, pts } from "../dom";
 import { navegar } from "../router";
 
@@ -10,6 +11,7 @@ export function renderizarFim(raiz: HTMLElement, partida: Partida, perguntas: Pe
   definirTitulo("Resultado");
   const total = profundidadeDaPartida(partida);
   const zona = zonaDaProfundidade(total);
+  definirProfundidade(total);
 
   const resumo = partida.estados
     .map((estado, i) => {

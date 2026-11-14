@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { BANCO } from "../src/data/banco";
 import {
+  fracaoProfundidade,
   maisRaras,
   pontosParaMetros,
   profundidadeMaxima,
@@ -46,6 +47,23 @@ describe("zonaDaProfundidade", () => {
     const zona = zonaDaProfundidade(metros);
     expect(zona.nome).toBe(nome);
     expect(zona.titulo).toBe(titulo);
+  });
+});
+
+describe("fracaoProfundidade", () => {
+  it("coloca o início de cada zona em uma cor do degradê", () => {
+    expect(fracaoProfundidade(0)).toBe(0);
+    expect(fracaoProfundidade(100)).toBe(0.25);
+    expect(fracaoProfundidade(200)).toBe(0.5);
+    expect(fracaoProfundidade(350)).toBe(0.75);
+    expect(fracaoProfundidade(500)).toBe(1);
+  });
+
+  it("interpola dentro da zona e fica entre 0 e 1", () => {
+    expect(fracaoProfundidade(50)).toBe(0.125);
+    expect(fracaoProfundidade(275)).toBe(0.625);
+    expect(fracaoProfundidade(-10)).toBe(0);
+    expect(fracaoProfundidade(700)).toBe(1);
   });
 });
 

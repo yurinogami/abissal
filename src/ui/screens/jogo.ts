@@ -19,6 +19,7 @@ import { raridade } from "../../game/scoring";
 import type { Pergunta } from "../../game/tipos";
 import { type Cronometro, criarCronometro } from "../components/cronometro";
 import { criarLume, FALAS, type Humor, type Lume } from "../components/lume";
+import { definirProfundidade } from "../components/oceano";
 import { $, definirTitulo, esc, metros } from "../dom";
 import type { Tela } from "../router";
 import { sessao } from "../sessao";
@@ -84,6 +85,7 @@ export function telaJogo(modo: Modo): Tela {
 
     function mostrar(): void {
       limparEtapa();
+      definirProfundidade(profundidadeDaPartida(partida));
       if (partida.finalizada) {
         renderizarFim(raiz, partida, perguntas);
         return;
