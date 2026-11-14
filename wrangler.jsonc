@@ -1,0 +1,8 @@
+// Configuração do Cloudflare Workers: o site é só a pasta dist (arquivos estáticos).
+{
+  "name": "abissal",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
