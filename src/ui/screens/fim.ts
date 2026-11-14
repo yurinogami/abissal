@@ -2,6 +2,7 @@ import { type Partida, profundidadeDaPartida } from "../../game/engine";
 import { pontosParaMetros, raridade, zonaDaProfundidade } from "../../game/scoring";
 import type { Pergunta } from "../../game/tipos";
 import { criarLume, FALAS } from "../components/lume";
+import { criarMedidor } from "../components/medidorProfundidade";
 import { definirProfundidade } from "../components/oceano";
 import { definirTitulo, esc, metros, pts } from "../dom";
 import { navegar } from "../router";
@@ -45,5 +46,8 @@ export function renderizarFim(raiz: HTMLElement, partida: Partida, perguntas: Pe
 
   const fala = partida.modo === "diario" ? FALAS.fimDiario(metros(total)) : FALAS.fimIlimitado(metros(total));
   raiz.querySelector(".tela-fim")!.append(criarLume(fala).elemento);
+  const medidor = criarMedidor();
+  raiz.querySelector(".fim-total")!.after(medidor.elemento);
+  requestAnimationFrame(() => requestAnimationFrame(() => medidor.atualizar(total)));
   raiz.querySelector('[data-acao="ilimitado"]')!.addEventListener("click", () => navegar("#ilimitado"));
 }

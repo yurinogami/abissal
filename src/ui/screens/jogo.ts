@@ -19,6 +19,7 @@ import { raridade } from "../../game/scoring";
 import type { Pergunta } from "../../game/tipos";
 import { type Cronometro, criarCronometro } from "../components/cronometro";
 import { criarLume, FALAS, type Humor, type Lume } from "../components/lume";
+import { criarMedidor } from "../components/medidorProfundidade";
 import { definirProfundidade } from "../components/oceano";
 import { $, definirTitulo, esc, metros } from "../dom";
 import type { Tela } from "../router";
@@ -64,6 +65,14 @@ export function telaJogo(modo: Modo): Tela {
       return q;
     });
     const lume: Lume = criarLume();
+    const medidor = criarMedidor();
+
+    /** Coloca o medidor logo depois do topo e atualiza a profundidade. */
+    function encaixarMedidor(tela: HTMLElement): void {
+      $(tela, ".jogo-topo").after(medidor.elemento);
+      // Dois quadros: o navegador pinta a posição antiga antes de animar até a nova.
+      requestAnimationFrame(() => requestAnimationFrame(() => medidor.atualizar(profundidadeDaPartida(partida))));
+    }
 
     let cronometro: Cronometro | null = null;
     let limparTeclado: (() => void) | null = null;
@@ -119,7 +128,8 @@ export function telaJogo(modo: Modo): Tela {
         </section>`;
 
       const tela = $(raiz, ".tela-jogo");
-      const form = $<HTMLFormElement>(tela, ".resposta-form");
+      encaixarMedidor(tela);
+      const form =$<HTMLFormElement>(tela, ".resposta-form");
       const campo = $<HTMLInputElement>(tela, "#resposta");
       const lista = $(tela, ".tentativas");
       const anuncio = $(tela, ".anuncio");
@@ -212,6 +222,7 @@ export function telaJogo(modo: Modo): Tela {
 
       raiz.innerHTML = `<section class="tela tela-jogo">${htmlTopo()}${htmlRevelacao(pergunta, estado, ultima)}</section>`;
       const tela = $(raiz, ".tela-jogo");
+      encaixarMedidor(tela);
       const [fala, humor] = falaDaRevelacao(estado);
       lume.falar(fala, humor);
       tela.append(lume.elemento);

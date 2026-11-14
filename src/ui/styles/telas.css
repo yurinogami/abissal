@@ -366,3 +366,166 @@
 .lume[data-humor="triste"] .lume-fala {
   border-color: var(--alerta);
 }
+
+/* Medidor de profundidade: horizontal no celular, vertical à esquerda no desktop */
+.medidor {
+  --f: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.medidor-trilho {
+  position: relative;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid var(--borda);
+  background: linear-gradient(
+    90deg,
+    var(--superficie),
+    var(--crepusculo),
+    var(--meia-noite),
+    var(--abismo),
+    var(--fossa)
+  );
+}
+
+.medidor-agua {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: calc(var(--f) * 100%);
+  border-radius: inherit;
+  background: rgba(124, 245, 210, 0.3);
+  transition: width 1.2s ease-in-out;
+}
+
+.medidor-marcas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.medidor-marca {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--pos) * 100%);
+  width: 2px;
+  background: rgba(232, 244, 248, 0.45);
+}
+
+.medidor-marca span,
+.medidor-valor {
+  display: none;
+}
+
+.medidor-marcador {
+  position: absolute;
+  top: 50%;
+  left: calc(var(--f) * 100%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--bioluz);
+  box-shadow: 0 0 12px var(--bioluz);
+  transform: translate(-50%, -50%);
+  transition: left 1.2s ease-in-out;
+}
+
+.medidor-zona {
+  margin: 0;
+  text-align: right;
+  font-size: 0.8125rem;
+  color: var(--texto-suave);
+}
+
+@media (min-width: 1100px) {
+  .medidor {
+    position: fixed;
+    top: 14vh;
+    bottom: 14vh;
+    left: calc(50% - var(--coluna) / 2 - 250px);
+    width: 210px;
+  }
+
+  .medidor-trilho {
+    flex: 1;
+    width: 10px;
+    height: auto;
+    margin-left: 72px;
+    background: linear-gradient(
+      180deg,
+      var(--superficie),
+      var(--crepusculo),
+      var(--meia-noite),
+      var(--abismo),
+      var(--fossa)
+    );
+  }
+
+  .medidor-agua {
+    right: 0;
+    bottom: auto;
+    width: auto;
+    height: calc(var(--f) * 100%);
+    transition: height 1.2s ease-in-out;
+  }
+
+  .medidor-marca {
+    top: calc(var(--pos) * 100%);
+    bottom: auto;
+    left: -4px;
+    width: 18px;
+    height: 2px;
+  }
+
+  .medidor-marca span {
+    display: block;
+    position: absolute;
+    left: 26px;
+    white-space: nowrap;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    color: var(--texto-suave);
+  }
+
+  .medidor-marca-metros {
+    top: -0.9em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .medidor-marca-zona {
+    top: 0.3em;
+  }
+
+  .medidor-marcador {
+    top: calc(var(--f) * 100%);
+    left: 50%;
+    transition: top 1.2s ease-in-out;
+  }
+
+  .medidor-valor {
+    display: block;
+    position: absolute;
+    right: 26px;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    font-weight: 800;
+    color: var(--bioluz);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .medidor-zona {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .medidor-agua,
+  .medidor-marcador {
+    transition: none;
+  }
+}
