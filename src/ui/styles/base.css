@@ -1,0 +1,130 @@
+/* Base provisória da Fase 2. Tokens, fontes e degradê de profundidade chegam na Fase 3. */
+:root {
+  --fundo: #0d2a4a;
+  --cartao: rgba(255, 255, 255, 0.06);
+  --borda: rgba(255, 255, 255, 0.16);
+  --texto: #e8f4f8;
+  --texto-suave: #9fb8c8;
+  --destaque: #7cf5d2;
+  --alerta: #ff6b6b;
+  --raro: #ffd166;
+  --medio: #c7a6ff;
+  --raio: 14px;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#app {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1:focus,
+h2:focus {
+  outline: none;
+}
+
+a {
+  color: var(--destaque);
+}
+
+:focus-visible {
+  outline: 3px solid var(--destaque);
+  outline-offset: 3px;
+}
+
+kbd {
+  font: inherit;
+  font-size: 0.85em;
+  padding: 0 6px;
+  border: 1px solid var(--borda);
+  border-radius: 6px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botao-principal {
+  background: var(--destaque);
+  color: #06111f;
+}
+
+.botao-secundario {
+  background: transparent;
+  color: var(--texto);
+  border-color: var(--borda);
+}
+
+.botao:hover {
+  filter: brightness(1.08);
+}
+
+.cartao {
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  padding: 16px;
+}
+
+.rotulo {
+  margin: 0 0 4px;
+  color: var(--texto-suave);
+  font-size: 0.875rem;
+}
+
+.destaque-numero {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
