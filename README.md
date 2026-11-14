@@ -11,9 +11,3 @@ npm run dev     # servidor de desenvolvimento
 npm test        # roda os testes (Vitest)
 npm run build   # gera a versão de produção em dist/
 ```
-
-## Documentação
-
-- [Plano do projeto](PLANO_ABISSAL.md)
-- [Instruções de versionamento](INSTRUCOES_GITHUB.md)
-- [Linha do tempo do progresso](PROGRESSO.md)
