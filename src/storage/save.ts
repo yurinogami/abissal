@@ -1,9 +1,8 @@
 import type { EstadoPergunta, Partida } from "../game/engine";
+import type { RegistroDia } from "../game/historico";
 
 /** O mínimo do localStorage que usamos (permite trocar por um falso nos testes). */
 export type Armazenamento = Pick<Storage, "getItem" | "setItem" | "removeItem">;
-
-export type RegistroDia = { data: string; pontos: number };
 
 const PREFIXO_PARTIDA = "abissal:partida:";
 const CHAVE_HISTORICO = "abissal:historico";
