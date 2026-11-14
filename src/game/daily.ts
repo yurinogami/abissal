@@ -1,7 +1,7 @@
 import type { Pergunta } from "./tipos";
 
 /** Dia 1 do Diário. O número do dia ("Abissal #42") é contado a partir daqui. */
-export const DATA_LANCAMENTO = "2026-11-13";
+export const DATA_LANCAMENTO = "2026-11-14";
 
 /** Uma pergunta não volta ao Diário antes deste número de dias, se o banco permitir. */
 export const DIAS_SEM_REPETIR = 7;

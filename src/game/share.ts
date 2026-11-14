@@ -22,7 +22,12 @@ export type DadosCompartilhamento = {
 export function textoCompartilhamento(d: DadosCompartilhamento): string {
   const metros = profundidadeTotal(d.pontosPorPergunta);
   const zona = zonaDaProfundidade(metros);
-  const titulo = d.modo === "diario" && d.numeroDia !== undefined ? `Abissal #${d.numeroDia} 🌊` : "Abissal · ilimitado 🌊";
+  const titulo =
+    d.modo !== "diario"
+      ? "Abissal · ilimitado 🌊"
+      : d.numeroDia !== undefined && d.numeroDia >= 1
+        ? `Abissal #${d.numeroDia} 🌊`
+        : "Abissal · prévia 🌊";
   return [
     titulo,
     `Mergulhei ${metros} m — ${zona.nome}`,

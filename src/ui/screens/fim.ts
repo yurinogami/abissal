@@ -9,6 +9,11 @@ import { definirProfundidade } from "../components/oceano";
 import { copiarTexto, definirTitulo, esc, metros, pts } from "../dom";
 import { navegar } from "../router";
 
+/** "Mergulho do dia #12", ou "(prévia)" antes do lançamento. */
+function rotuloDiario(numero: number): string {
+  return numero >= 1 ? `Mergulho do dia #${numero}` : "Mergulho do dia (prévia)";
+}
+
 /** Tela de fim de partida (seção 5.5). */
 export function renderizarFim(raiz: HTMLElement, partida: Partida, perguntas: Pergunta[]): void {
   definirTitulo("Resultado");
@@ -33,7 +38,7 @@ export function renderizarFim(raiz: HTMLElement, partida: Partida, perguntas: Pe
     <section class="tela tela-fim">
       <h1 tabindex="-1" class="sr-only">Resultado do mergulho</h1>
       <div class="cartao fim-total">
-        <p class="rotulo">${partida.modo === "diario" ? `Mergulho do dia #${numeroDoDia(partida.data)}` : "Mergulho ilimitado"}</p>
+        <p class="rotulo">${partida.modo === "diario" ? rotuloDiario(numeroDoDia(partida.data)) : "Mergulho ilimitado"}</p>
         <p class="destaque-numero">${esc(metros(total))}</p>
         <p class="fim-zona">${esc(zona.nome)} <span>(${esc(zona.nomeCientifico)})</span></p>
         <p class="fim-titulo">${esc(zona.titulo)}</p>

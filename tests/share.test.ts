@@ -36,6 +36,11 @@ describe("textoCompartilhamento", () => {
     expect(zero.split("\n")[1]).toBe("Mergulhei 0 m — Zona iluminada");
   });
 
+  it("antes do lançamento, mostra prévia em vez de #0", () => {
+    const texto = textoCompartilhamento({ modo: "diario", numeroDia: 0, pontosPorPergunta: [5], endereco: "x" });
+    expect(texto.split("\n")[0]).toBe("Abissal · prévia 🌊");
+  });
+
   it("no Ilimitado, não mostra número do dia", () => {
     const texto = textoCompartilhamento({ modo: "ilimitado", pontosPorPergunta: [5], endereco: "x" });
     expect(texto.split("\n")[0]).toBe("Abissal · ilimitado 🌊");
