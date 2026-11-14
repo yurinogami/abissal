@@ -5256,5 +5256,2614 @@
         "p": 9
       }
     ]
+  },
+  {
+    "id": "folclore",
+    "pergunta": "Cite um personagem do folclore brasileiro.",
+    "categoria": "cultura",
+    "respostas": [
+      {
+        "r": "Saci",
+        "p": 1,
+        "alias": [
+          "saci perere"
+        ]
+      },
+      {
+        "r": "Curupira",
+        "p": 1
+      },
+      {
+        "r": "Mula sem cabeça",
+        "p": 1
+      },
+      {
+        "r": "Iara",
+        "p": 2,
+        "alias": [
+          "mae d agua",
+          "yara"
+        ]
+      },
+      {
+        "r": "Boitatá",
+        "p": 2
+      },
+      {
+        "r": "Boto",
+        "p": 2,
+        "alias": [
+          "boto cor de rosa"
+        ]
+      },
+      {
+        "r": "Cuca",
+        "p": 2
+      },
+      {
+        "r": "Lobisomem",
+        "p": 3
+      },
+      {
+        "r": "Negrinho do Pastoreio",
+        "p": 4
+      },
+      {
+        "r": "Caipora",
+        "p": 4
+      },
+      {
+        "r": "Bicho-papão",
+        "p": 5
+      },
+      {
+        "r": "Mapinguari",
+        "p": 6
+      },
+      {
+        "r": "Bumba meu boi",
+        "p": 6,
+        "alias": [
+          "boi bumba"
+        ]
+      },
+      {
+        "r": "Vitória-régia",
+        "p": 7
+      },
+      {
+        "r": "Corpo-seco",
+        "p": 7
+      },
+      {
+        "r": "Comadre Fulozinha",
+        "p": 8
+      },
+      {
+        "r": "Mãe do Ouro",
+        "p": 8
+      },
+      {
+        "r": "Pisadeira",
+        "p": 8
+      },
+      {
+        "r": "Matinta Perera",
+        "p": 8,
+        "alias": [
+          "matinta pereira"
+        ]
+      },
+      {
+        "r": "Boiuna",
+        "p": 8,
+        "alias": [
+          "cobra grande"
+        ]
+      },
+      {
+        "r": "Cabra-cabriola",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "presidentes",
+    "pergunta": "Cite alguém que já foi presidente do Brasil.",
+    "categoria": "historia",
+    "respostas": [
+      {
+        "r": "Lula",
+        "p": 1,
+        "alias": [
+          "luiz inacio lula da silva",
+          "lula da silva"
+        ]
+      },
+      {
+        "r": "Jair Bolsonaro",
+        "p": 1,
+        "alias": [
+          "bolsonaro"
+        ]
+      },
+      {
+        "r": "Dilma Rousseff",
+        "p": 2,
+        "alias": [
+          "dilma"
+        ]
+      },
+      {
+        "r": "Getúlio Vargas",
+        "p": 2,
+        "alias": [
+          "getulio",
+          "vargas"
+        ]
+      },
+      {
+        "r": "Fernando Henrique Cardoso",
+        "p": 2,
+        "alias": [
+          "fhc",
+          "fernando henrique"
+        ]
+      },
+      {
+        "r": "Juscelino Kubitschek",
+        "p": 3,
+        "alias": [
+          "jk",
+          "juscelino",
+          "kubitschek"
+        ]
+      },
+      {
+        "r": "Fernando Collor",
+        "p": 3,
+        "alias": [
+          "collor"
+        ]
+      },
+      {
+        "r": "Michel Temer",
+        "p": 3,
+        "alias": [
+          "temer"
+        ]
+      },
+      {
+        "r": "José Sarney",
+        "p": 3,
+        "alias": [
+          "sarney"
+        ]
+      },
+      {
+        "r": "Itamar Franco",
+        "p": 4,
+        "alias": [
+          "itamar"
+        ]
+      },
+      {
+        "r": "Deodoro da Fonseca",
+        "p": 4,
+        "alias": [
+          "deodoro",
+          "marechal deodoro"
+        ]
+      },
+      {
+        "r": "João Goulart",
+        "p": 5,
+        "alias": [
+          "jango",
+          "goulart"
+        ]
+      },
+      {
+        "r": "Jânio Quadros",
+        "p": 5,
+        "alias": [
+          "janio"
+        ]
+      },
+      {
+        "r": "Eurico Gaspar Dutra",
+        "p": 6,
+        "alias": [
+          "dutra"
+        ]
+      },
+      {
+        "r": "Emílio Médici",
+        "p": 6,
+        "alias": [
+          "medici",
+          "garrastazu medici"
+        ]
+      },
+      {
+        "r": "Ernesto Geisel",
+        "p": 6,
+        "alias": [
+          "geisel"
+        ]
+      },
+      {
+        "r": "João Figueiredo",
+        "p": 6,
+        "alias": [
+          "figueiredo"
+        ]
+      },
+      {
+        "r": "Castelo Branco",
+        "p": 6,
+        "alias": [
+          "castello branco"
+        ]
+      },
+      {
+        "r": "Costa e Silva",
+        "p": 6
+      },
+      {
+        "r": "Floriano Peixoto",
+        "p": 6,
+        "alias": [
+          "floriano"
+        ]
+      },
+      {
+        "r": "Prudente de Morais",
+        "p": 8,
+        "alias": [
+          "prudente"
+        ]
+      },
+      {
+        "r": "Campos Sales",
+        "p": 8
+      },
+      {
+        "r": "Rodrigues Alves",
+        "p": 8
+      },
+      {
+        "r": "Afonso Pena",
+        "p": 8
+      },
+      {
+        "r": "Epitácio Pessoa",
+        "p": 8,
+        "alias": [
+          "epitacio"
+        ]
+      },
+      {
+        "r": "Washington Luís",
+        "p": 8
+      },
+      {
+        "r": "Café Filho",
+        "p": 8
+      },
+      {
+        "r": "Hermes da Fonseca",
+        "p": 9
+      },
+      {
+        "r": "Nilo Peçanha",
+        "p": 9
+      },
+      {
+        "r": "Artur Bernardes",
+        "p": 9,
+        "alias": [
+          "arthur bernardes"
+        ]
+      },
+      {
+        "r": "Venceslau Brás",
+        "p": 9,
+        "alias": [
+          "wenceslau bras"
+        ]
+      },
+      {
+        "r": "Delfim Moreira",
+        "p": 10
+      },
+      {
+        "r": "José Linhares",
+        "p": 10
+      },
+      {
+        "r": "Carlos Luz",
+        "p": 10
+      },
+      {
+        "r": "Nereu Ramos",
+        "p": 10
+      },
+      {
+        "r": "Ranieri Mazzilli",
+        "p": 10,
+        "alias": [
+          "mazzilli"
+        ]
+      }
+    ],
+    "mensagens": {
+      "tancredo": "Tancredo foi eleito, mas morreu antes de tomar posse.",
+      "tancredo neves": "Tancredo foi eleito, mas morreu antes de tomar posse."
+    }
+  },
+  {
+    "id": "moedas-brasil",
+    "pergunta": "Cite uma moeda que já circulou oficialmente no Brasil.",
+    "categoria": "historia",
+    "respostas": [
+      {
+        "r": "Real",
+        "p": 1
+      },
+      {
+        "r": "Cruzeiro",
+        "p": 2
+      },
+      {
+        "r": "Cruzado",
+        "p": 3
+      },
+      {
+        "r": "Cruzeiro Real",
+        "p": 6
+      },
+      {
+        "r": "Cruzado Novo",
+        "p": 6
+      },
+      {
+        "r": "Cruzeiro Novo",
+        "p": 7
+      },
+      {
+        "r": "Réis",
+        "p": 7,
+        "alias": [
+          "mil reis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "semana-22",
+    "pergunta": "Cite um participante da Semana de Arte Moderna de 1922.",
+    "categoria": "historia",
+    "respostas": [
+      {
+        "r": "Mário de Andrade",
+        "p": 1,
+        "alias": [
+          "mario"
+        ]
+      },
+      {
+        "r": "Oswald de Andrade",
+        "p": 1,
+        "alias": [
+          "oswald"
+        ]
+      },
+      {
+        "r": "Anita Malfatti",
+        "p": 3,
+        "alias": [
+          "anita"
+        ]
+      },
+      {
+        "r": "Di Cavalcanti",
+        "p": 4
+      },
+      {
+        "r": "Villa-Lobos",
+        "p": 4,
+        "alias": [
+          "heitor villa lobos"
+        ]
+      },
+      {
+        "r": "Menotti Del Picchia",
+        "p": 6,
+        "alias": [
+          "menotti"
+        ]
+      },
+      {
+        "r": "Graça Aranha",
+        "p": 6
+      },
+      {
+        "r": "Victor Brecheret",
+        "p": 7,
+        "alias": [
+          "brecheret"
+        ]
+      },
+      {
+        "r": "Guilherme de Almeida",
+        "p": 8
+      },
+      {
+        "r": "Ronald de Carvalho",
+        "p": 9
+      },
+      {
+        "r": "Guiomar Novaes",
+        "p": 9
+      },
+      {
+        "r": "Plínio Salgado",
+        "p": 9
+      },
+      {
+        "r": "Sérgio Milliet",
+        "p": 9
+      }
+    ],
+    "mensagens": {
+      "tarsila": "A Tarsila estava em Paris e não participou da Semana de 22!",
+      "tarsila do amaral": "A Tarsila estava em Paris e não participou da Semana de 22!"
+    }
+  },
+  {
+    "id": "machado-de-assis",
+    "pergunta": "Cite um livro ou conto de Machado de Assis.",
+    "categoria": "literatura",
+    "respostas": [
+      {
+        "r": "Dom Casmurro",
+        "p": 1
+      },
+      {
+        "r": "Memórias Póstumas de Brás Cubas",
+        "p": 2,
+        "alias": [
+          "memorias postumas",
+          "bras cubas"
+        ]
+      },
+      {
+        "r": "Quincas Borba",
+        "p": 3
+      },
+      {
+        "r": "O Alienista",
+        "p": 3
+      },
+      {
+        "r": "A Cartomante",
+        "p": 5
+      },
+      {
+        "r": "Helena",
+        "p": 6
+      },
+      {
+        "r": "Missa do Galo",
+        "p": 6
+      },
+      {
+        "r": "Esaú e Jacó",
+        "p": 7
+      },
+      {
+        "r": "Memorial de Aires",
+        "p": 7
+      },
+      {
+        "r": "O Espelho",
+        "p": 7
+      },
+      {
+        "r": "Pai contra Mãe",
+        "p": 7
+      },
+      {
+        "r": "Iaiá Garcia",
+        "p": 8
+      },
+      {
+        "r": "A Mão e a Luva",
+        "p": 8
+      },
+      {
+        "r": "Ressurreição",
+        "p": 8
+      },
+      {
+        "r": "Teoria do Medalhão",
+        "p": 8
+      },
+      {
+        "r": "O Enfermeiro",
+        "p": 8
+      },
+      {
+        "r": "A Causa Secreta",
+        "p": 8
+      },
+      {
+        "r": "Uns Braços",
+        "p": 9
+      },
+      {
+        "r": "Noite de Almirante",
+        "p": 9
+      },
+      {
+        "r": "Casa Velha",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "maravilhas-antigas",
+    "pergunta": "Cite uma das Sete Maravilhas do Mundo Antigo.",
+    "categoria": "historia",
+    "respostas": [
+      {
+        "r": "Pirâmide de Gizé",
+        "p": 1,
+        "alias": [
+          "piramides",
+          "piramides do egito",
+          "grande piramide",
+          "piramide de queops"
+        ]
+      },
+      {
+        "r": "Jardins Suspensos da Babilônia",
+        "p": 3,
+        "alias": [
+          "jardins suspensos"
+        ]
+      },
+      {
+        "r": "Colosso de Rodes",
+        "p": 5
+      },
+      {
+        "r": "Farol de Alexandria",
+        "p": 5
+      },
+      {
+        "r": "Estátua de Zeus",
+        "p": 7,
+        "alias": [
+          "estatua de zeus em olimpia"
+        ]
+      },
+      {
+        "r": "Templo de Ártemis",
+        "p": 8,
+        "alias": [
+          "templo de diana"
+        ]
+      },
+      {
+        "r": "Mausoléu de Halicarnasso",
+        "p": 8
+      }
+    ]
+  },
+  {
+    "id": "deuses-gregos",
+    "pergunta": "Cite um deus ou deusa do Olimpo grego.",
+    "categoria": "mitologia",
+    "respostas": [
+      {
+        "r": "Zeus",
+        "p": 1
+      },
+      {
+        "r": "Afrodite",
+        "p": 2
+      },
+      {
+        "r": "Atena",
+        "p": 2
+      },
+      {
+        "r": "Apolo",
+        "p": 2
+      },
+      {
+        "r": "Poseidon",
+        "p": 2,
+        "alias": [
+          "posseidon"
+        ]
+      },
+      {
+        "r": "Hermes",
+        "p": 3
+      },
+      {
+        "r": "Ares",
+        "p": 3
+      },
+      {
+        "r": "Hera",
+        "p": 3
+      },
+      {
+        "r": "Ártemis",
+        "p": 4
+      },
+      {
+        "r": "Dionísio",
+        "p": 5,
+        "alias": [
+          "dioniso"
+        ]
+      },
+      {
+        "r": "Hefesto",
+        "p": 5
+      },
+      {
+        "r": "Deméter",
+        "p": 6
+      },
+      {
+        "r": "Héstia",
+        "p": 8
+      }
+    ],
+    "mensagens": {
+      "hades": "Hades mora no submundo, não no Olimpo!",
+      "jupiter": "Esse é o nome romano! Aqui vale o nome grego.",
+      "venus": "Esse é o nome romano! Aqui vale o nome grego.",
+      "marte": "Esse é o nome romano! Aqui vale o nome grego.",
+      "netuno": "Esse é o nome romano! Aqui vale o nome grego.",
+      "minerva": "Esse é o nome romano! Aqui vale o nome grego.",
+      "mercurio": "Esse é o nome romano! Aqui vale o nome grego.",
+      "juno": "Esse é o nome romano! Aqui vale o nome grego.",
+      "vulcano": "Esse é o nome romano! Aqui vale o nome grego.",
+      "baco": "Esse é o nome romano! Aqui vale o nome grego.",
+      "diana": "Esse é o nome romano! Aqui vale o nome grego.",
+      "ceres": "Esse é o nome romano! Aqui vale o nome grego.",
+      "vesta": "Esse é o nome romano! Aqui vale o nome grego."
+    }
+  },
+  {
+    "id": "deuses-nordicos",
+    "pergunta": "Cite um deus ou deusa da mitologia nórdica.",
+    "categoria": "mitologia",
+    "respostas": [
+      {
+        "r": "Thor",
+        "p": 1
+      },
+      {
+        "r": "Odin",
+        "p": 1
+      },
+      {
+        "r": "Loki",
+        "p": 1
+      },
+      {
+        "r": "Freya",
+        "p": 4,
+        "alias": [
+          "freia",
+          "freyja"
+        ]
+      },
+      {
+        "r": "Heimdall",
+        "p": 5
+      },
+      {
+        "r": "Frigga",
+        "p": 6,
+        "alias": [
+          "frigg"
+        ]
+      },
+      {
+        "r": "Baldur",
+        "p": 6,
+        "alias": [
+          "balder"
+        ]
+      },
+      {
+        "r": "Hel",
+        "p": 6
+      },
+      {
+        "r": "Tyr",
+        "p": 7
+      },
+      {
+        "r": "Njord",
+        "p": 8
+      },
+      {
+        "r": "Freyr",
+        "p": 8,
+        "alias": [
+          "frey"
+        ]
+      },
+      {
+        "r": "Sif",
+        "p": 8
+      },
+      {
+        "r": "Bragi",
+        "p": 9
+      },
+      {
+        "r": "Idun",
+        "p": 9
+      },
+      {
+        "r": "Vidar",
+        "p": 9
+      },
+      {
+        "r": "Hoder",
+        "p": 10,
+        "alias": [
+          "hod"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orixas",
+    "pergunta": "Cite um orixá.",
+    "categoria": "religiao",
+    "respostas": [
+      {
+        "r": "Iemanjá",
+        "p": 1
+      },
+      {
+        "r": "Oxalá",
+        "p": 2
+      },
+      {
+        "r": "Xangô",
+        "p": 2
+      },
+      {
+        "r": "Ogum",
+        "p": 2
+      },
+      {
+        "r": "Oxum",
+        "p": 3
+      },
+      {
+        "r": "Iansã",
+        "p": 3,
+        "alias": [
+          "oia"
+        ]
+      },
+      {
+        "r": "Exu",
+        "p": 3
+      },
+      {
+        "r": "Oxóssi",
+        "p": 3
+      },
+      {
+        "r": "Omolu",
+        "p": 5,
+        "alias": [
+          "obaluaie"
+        ]
+      },
+      {
+        "r": "Nanã",
+        "p": 5
+      },
+      {
+        "r": "Oxumaré",
+        "p": 6
+      },
+      {
+        "r": "Ibeji",
+        "p": 6
+      },
+      {
+        "r": "Ossaim",
+        "p": 7
+      },
+      {
+        "r": "Logunedé",
+        "p": 8
+      },
+      {
+        "r": "Obá",
+        "p": 8
+      },
+      {
+        "r": "Ewá",
+        "p": 8
+      }
+    ]
+  },
+  {
+    "id": "apostolos",
+    "pergunta": "Cite um dos doze apóstolos de Jesus.",
+    "categoria": "religiao",
+    "respostas": [
+      {
+        "r": "Pedro",
+        "p": 1,
+        "alias": [
+          "simao pedro"
+        ]
+      },
+      {
+        "r": "João",
+        "p": 1
+      },
+      {
+        "r": "Judas Iscariotes",
+        "p": 2,
+        "alias": [
+          "judas",
+          "iscariotes"
+        ]
+      },
+      {
+        "r": "Mateus",
+        "p": 2
+      },
+      {
+        "r": "Tomé",
+        "p": 3
+      },
+      {
+        "r": "Tiago",
+        "p": 3
+      },
+      {
+        "r": "André",
+        "p": 3
+      },
+      {
+        "r": "Filipe",
+        "p": 5
+      },
+      {
+        "r": "Bartolomeu",
+        "p": 6
+      },
+      {
+        "r": "Judas Tadeu",
+        "p": 7,
+        "alias": [
+          "tadeu"
+        ]
+      },
+      {
+        "r": "Simão",
+        "p": 8,
+        "alias": [
+          "simao zelote",
+          "simao o zelote"
+        ]
+      },
+      {
+        "r": "Matias",
+        "p": 9
+      }
+    ],
+    "mensagens": {
+      "paulo": "Paulo foi apóstolo, mas não um dos doze!"
+    }
+  },
+  {
+    "id": "evangelhos",
+    "pergunta": "Cite um dos quatro evangelhos.",
+    "categoria": "religiao",
+    "respostas": [
+      {
+        "r": "João",
+        "p": 1
+      },
+      {
+        "r": "Mateus",
+        "p": 2
+      },
+      {
+        "r": "Marcos",
+        "p": 2
+      },
+      {
+        "r": "Lucas",
+        "p": 2
+      }
+    ]
+  },
+  {
+    "id": "linguas-onu",
+    "pergunta": "Cite uma das seis línguas oficiais da ONU.",
+    "categoria": "cultura",
+    "respostas": [
+      {
+        "r": "Inglês",
+        "p": 1
+      },
+      {
+        "r": "Espanhol",
+        "p": 2
+      },
+      {
+        "r": "Francês",
+        "p": 2
+      },
+      {
+        "r": "Chinês",
+        "p": 4,
+        "alias": [
+          "mandarim"
+        ]
+      },
+      {
+        "r": "Russo",
+        "p": 5
+      },
+      {
+        "r": "Árabe",
+        "p": 5
+      }
+    ],
+    "mensagens": {
+      "portugues": "O português ainda não é língua oficial da ONU."
+    }
+  },
+  {
+    "id": "notas-musicais",
+    "pergunta": "Cite uma nota musical.",
+    "categoria": "musica",
+    "respostas": [
+      {
+        "r": "Dó",
+        "p": 1
+      },
+      {
+        "r": "Ré",
+        "p": 1
+      },
+      {
+        "r": "Mi",
+        "p": 1
+      },
+      {
+        "r": "Sol",
+        "p": 1
+      },
+      {
+        "r": "Fá",
+        "p": 2
+      },
+      {
+        "r": "Lá",
+        "p": 2
+      },
+      {
+        "r": "Si",
+        "p": 3
+      }
+    ]
+  },
+  {
+    "id": "instrumentos-sopro",
+    "pergunta": "Cite um instrumento musical de sopro.",
+    "categoria": "musica",
+    "respostas": [
+      {
+        "r": "Flauta",
+        "p": 1
+      },
+      {
+        "r": "Saxofone",
+        "p": 1,
+        "alias": [
+          "sax"
+        ]
+      },
+      {
+        "r": "Trompete",
+        "p": 2
+      },
+      {
+        "r": "Clarinete",
+        "p": 3
+      },
+      {
+        "r": "Trombone",
+        "p": 3
+      },
+      {
+        "r": "Gaita",
+        "p": 3,
+        "alias": [
+          "harmonica"
+        ]
+      },
+      {
+        "r": "Flauta doce",
+        "p": 4
+      },
+      {
+        "r": "Tuba",
+        "p": 4
+      },
+      {
+        "r": "Corneta",
+        "p": 5
+      },
+      {
+        "r": "Flauta transversal",
+        "p": 5
+      },
+      {
+        "r": "Oboé",
+        "p": 6
+      },
+      {
+        "r": "Trompa",
+        "p": 6
+      },
+      {
+        "r": "Gaita de foles",
+        "p": 6
+      },
+      {
+        "r": "Fagote",
+        "p": 7
+      },
+      {
+        "r": "Pífano",
+        "p": 7,
+        "alias": [
+          "pifaro"
+        ]
+      },
+      {
+        "r": "Ocarina",
+        "p": 8
+      },
+      {
+        "r": "Flautim",
+        "p": 8
+      },
+      {
+        "r": "Didgeridoo",
+        "p": 9
+      },
+      {
+        "r": "Sousafone",
+        "p": 9
+      },
+      {
+        "r": "Bombardino",
+        "p": 9
+      },
+      {
+        "r": "Clarone",
+        "p": 10
+      }
+    ]
+  },
+  {
+    "id": "generos-musicais",
+    "pergunta": "Cite um gênero musical brasileiro.",
+    "categoria": "musica",
+    "respostas": [
+      {
+        "r": "Samba",
+        "p": 1
+      },
+      {
+        "r": "Funk",
+        "p": 1
+      },
+      {
+        "r": "Sertanejo",
+        "p": 1
+      },
+      {
+        "r": "MPB",
+        "p": 2
+      },
+      {
+        "r": "Forró",
+        "p": 2
+      },
+      {
+        "r": "Pagode",
+        "p": 2
+      },
+      {
+        "r": "Axé",
+        "p": 3
+      },
+      {
+        "r": "Bossa Nova",
+        "p": 3
+      },
+      {
+        "r": "Frevo",
+        "p": 5
+      },
+      {
+        "r": "Choro",
+        "p": 5,
+        "alias": [
+          "chorinho"
+        ]
+      },
+      {
+        "r": "Baião",
+        "p": 5
+      },
+      {
+        "r": "Brega",
+        "p": 5
+      },
+      {
+        "r": "Piseiro",
+        "p": 5,
+        "alias": [
+          "pisadinha"
+        ]
+      },
+      {
+        "r": "Arrocha",
+        "p": 6
+      },
+      {
+        "r": "Lambada",
+        "p": 6
+      },
+      {
+        "r": "Xote",
+        "p": 6
+      },
+      {
+        "r": "Tecnobrega",
+        "p": 7
+      },
+      {
+        "r": "Maracatu",
+        "p": 7
+      },
+      {
+        "r": "Carimbó",
+        "p": 7
+      },
+      {
+        "r": "Samba-reggae",
+        "p": 7
+      },
+      {
+        "r": "Manguebeat",
+        "p": 7,
+        "alias": [
+          "mangue beat"
+        ]
+      },
+      {
+        "r": "Tropicália",
+        "p": 7
+      },
+      {
+        "r": "Xaxado",
+        "p": 8
+      },
+      {
+        "r": "Maxixe",
+        "p": 9
+      },
+      {
+        "r": "Lundu",
+        "p": 9
+      },
+      {
+        "r": "Modinha",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "beatles",
+    "pergunta": "Cite um integrante (atual ou antigo) dos Beatles.",
+    "categoria": "musica",
+    "respostas": [
+      {
+        "r": "John Lennon",
+        "p": 1,
+        "alias": [
+          "john",
+          "lennon"
+        ]
+      },
+      {
+        "r": "Paul McCartney",
+        "p": 1,
+        "alias": [
+          "paul",
+          "mccartney",
+          "mc cartney"
+        ]
+      },
+      {
+        "r": "Ringo Starr",
+        "p": 2,
+        "alias": [
+          "ringo"
+        ]
+      },
+      {
+        "r": "George Harrison",
+        "p": 2,
+        "alias": [
+          "george",
+          "harrison"
+        ]
+      },
+      {
+        "r": "Pete Best",
+        "p": 9,
+        "alias": [
+          "pete"
+        ]
+      },
+      {
+        "r": "Stuart Sutcliffe",
+        "p": 10,
+        "alias": [
+          "stuart",
+          "sutcliffe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "turma-da-monica",
+    "pergunta": "Cite um personagem da Turma da Mônica.",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Mônica",
+        "p": 1
+      },
+      {
+        "r": "Cebolinha",
+        "p": 1
+      },
+      {
+        "r": "Cascão",
+        "p": 1
+      },
+      {
+        "r": "Magali",
+        "p": 1
+      },
+      {
+        "r": "Chico Bento",
+        "p": 2
+      },
+      {
+        "r": "Franjinha",
+        "p": 4
+      },
+      {
+        "r": "Bidu",
+        "p": 4
+      },
+      {
+        "r": "Anjinho",
+        "p": 5
+      },
+      {
+        "r": "Xaveco",
+        "p": 5
+      },
+      {
+        "r": "Rosinha",
+        "p": 5
+      },
+      {
+        "r": "Sansão",
+        "p": 5
+      },
+      {
+        "r": "Horácio",
+        "p": 6
+      },
+      {
+        "r": "Penadinho",
+        "p": 6
+      },
+      {
+        "r": "Astronauta",
+        "p": 6
+      },
+      {
+        "r": "Piteco",
+        "p": 6
+      },
+      {
+        "r": "Marina",
+        "p": 6
+      },
+      {
+        "r": "Jotalhão",
+        "p": 7
+      },
+      {
+        "r": "Papa-Capim",
+        "p": 7
+      },
+      {
+        "r": "Do Contra",
+        "p": 7
+      },
+      {
+        "r": "Denise",
+        "p": 7
+      },
+      {
+        "r": "Humberto",
+        "p": 7
+      },
+      {
+        "r": "Titi",
+        "p": 7
+      },
+      {
+        "r": "Jeremias",
+        "p": 7
+      },
+      {
+        "r": "Zé Lelé",
+        "p": 7
+      },
+      {
+        "r": "Milena",
+        "p": 7
+      },
+      {
+        "r": "Louco",
+        "p": 7
+      },
+      {
+        "r": "Capitão Feio",
+        "p": 7
+      },
+      {
+        "r": "Dorinha",
+        "p": 8
+      }
+    ]
+  },
+  {
+    "id": "sitio-picapau",
+    "pergunta": "Cite um personagem do Sítio do Picapau Amarelo.",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Emília",
+        "p": 1
+      },
+      {
+        "r": "Narizinho",
+        "p": 2
+      },
+      {
+        "r": "Pedrinho",
+        "p": 2
+      },
+      {
+        "r": "Dona Benta",
+        "p": 2
+      },
+      {
+        "r": "Tia Nastácia",
+        "p": 3
+      },
+      {
+        "r": "Visconde de Sabugosa",
+        "p": 3,
+        "alias": [
+          "visconde"
+        ]
+      },
+      {
+        "r": "Cuca",
+        "p": 3
+      },
+      {
+        "r": "Saci",
+        "p": 4
+      },
+      {
+        "r": "Tio Barnabé",
+        "p": 6
+      },
+      {
+        "r": "Rabicó",
+        "p": 6,
+        "alias": [
+          "marques de rabico"
+        ]
+      },
+      {
+        "r": "Quindim",
+        "p": 7
+      },
+      {
+        "r": "Conselheiro",
+        "p": 8,
+        "alias": [
+          "burro falante"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chaves",
+    "pergunta": "Cite um personagem do seriado Chaves.",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Chaves",
+        "p": 1
+      },
+      {
+        "r": "Chiquinha",
+        "p": 1
+      },
+      {
+        "r": "Quico",
+        "p": 1
+      },
+      {
+        "r": "Seu Madruga",
+        "p": 1
+      },
+      {
+        "r": "Dona Florinda",
+        "p": 2
+      },
+      {
+        "r": "Professor Girafales",
+        "p": 2,
+        "alias": [
+          "girafales"
+        ]
+      },
+      {
+        "r": "Seu Barriga",
+        "p": 2
+      },
+      {
+        "r": "Dona Clotilde",
+        "p": 3,
+        "alias": [
+          "bruxa do 71"
+        ]
+      },
+      {
+        "r": "Nhonho",
+        "p": 3
+      },
+      {
+        "r": "Jaiminho",
+        "p": 4,
+        "alias": [
+          "carteiro"
+        ]
+      },
+      {
+        "r": "Pópis",
+        "p": 4
+      },
+      {
+        "r": "Godinez",
+        "p": 5
+      },
+      {
+        "r": "Paty",
+        "p": 6
+      },
+      {
+        "r": "Glória",
+        "p": 7
+      },
+      {
+        "r": "Malicha",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "pixar",
+    "pergunta": "Cite um longa-metragem da Pixar.",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Toy Story",
+        "p": 1,
+        "prefixo": "toy story"
+      },
+      {
+        "r": "Procurando Nemo",
+        "p": 2
+      },
+      {
+        "r": "Carros",
+        "p": 2,
+        "prefixo": "carros"
+      },
+      {
+        "r": "Monstros S.A.",
+        "p": 2,
+        "alias": [
+          "monstros sa"
+        ]
+      },
+      {
+        "r": "Os Incríveis",
+        "p": 2,
+        "prefixo": "os incriveis"
+      },
+      {
+        "r": "Up",
+        "p": 3,
+        "alias": [
+          "up altas aventuras"
+        ]
+      },
+      {
+        "r": "Divertida Mente",
+        "p": 3,
+        "prefixo": "divertida mente"
+      },
+      {
+        "r": "Ratatouille",
+        "p": 3
+      },
+      {
+        "r": "WALL-E",
+        "p": 4,
+        "alias": [
+          "wall e",
+          "walle"
+        ]
+      },
+      {
+        "r": "Viva",
+        "p": 4,
+        "alias": [
+          "viva a vida e uma festa"
+        ]
+      },
+      {
+        "r": "Procurando Dory",
+        "p": 4
+      },
+      {
+        "r": "Valente",
+        "p": 5
+      },
+      {
+        "r": "Universidade Monstros",
+        "p": 5
+      },
+      {
+        "r": "Soul",
+        "p": 5
+      },
+      {
+        "r": "Luca",
+        "p": 6
+      },
+      {
+        "r": "Elementos",
+        "p": 6
+      },
+      {
+        "r": "Vida de Inseto",
+        "p": 6
+      },
+      {
+        "r": "Dois Irmãos",
+        "p": 7
+      },
+      {
+        "r": "O Bom Dinossauro",
+        "p": 7
+      },
+      {
+        "r": "Red",
+        "p": 7,
+        "alias": [
+          "red crescer e uma fera"
+        ]
+      },
+      {
+        "r": "Lightyear",
+        "p": 7
+      },
+      {
+        "r": "Elio",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "vingadores",
+    "pergunta": "Cite um dos seis Vingadores do primeiro filme (2012).",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Homem de Ferro",
+        "p": 1,
+        "alias": [
+          "tony stark"
+        ]
+      },
+      {
+        "r": "Capitão América",
+        "p": 1,
+        "alias": [
+          "steve rogers"
+        ]
+      },
+      {
+        "r": "Thor",
+        "p": 1
+      },
+      {
+        "r": "Hulk",
+        "p": 1,
+        "alias": [
+          "bruce banner"
+        ]
+      },
+      {
+        "r": "Viúva Negra",
+        "p": 3,
+        "alias": [
+          "natasha romanoff"
+        ]
+      },
+      {
+        "r": "Gavião Arqueiro",
+        "p": 4,
+        "alias": [
+          "clint barton"
+        ]
+      }
+    ],
+    "mensagens": {
+      "homem aranha": "O Homem-Aranha não estava no primeiro Vingadores!"
+    }
+  },
+  {
+    "id": "simpsons",
+    "pergunta": "Cite um membro da família Simpson.",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Homer",
+        "p": 1
+      },
+      {
+        "r": "Bart",
+        "p": 1
+      },
+      {
+        "r": "Lisa",
+        "p": 2
+      },
+      {
+        "r": "Marge",
+        "p": 2
+      },
+      {
+        "r": "Maggie",
+        "p": 3
+      },
+      {
+        "r": "Abe",
+        "p": 6,
+        "alias": [
+          "vovo simpson",
+          "abraham"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pokemon-iniciais",
+    "pergunta": "Cite um Pokémon inicial da primeira geração (Kanto).",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Charmander",
+        "p": 1
+      },
+      {
+        "r": "Squirtle",
+        "p": 2
+      },
+      {
+        "r": "Bulbasaur",
+        "p": 2
+      },
+      {
+        "r": "Pikachu",
+        "p": 3
+      }
+    ]
+  },
+  {
+    "id": "tartarugas-ninja",
+    "pergunta": "Cite uma das Tartarugas Ninja.",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Leonardo",
+        "p": 2
+      },
+      {
+        "r": "Michelangelo",
+        "p": 2
+      },
+      {
+        "r": "Rafael",
+        "p": 2,
+        "alias": [
+          "raphael"
+        ]
+      },
+      {
+        "r": "Donatello",
+        "p": 3
+      }
+    ]
+  },
+  {
+    "id": "sete-anoes",
+    "pergunta": "Cite um dos sete anões da Branca de Neve (Disney).",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Dunga",
+        "p": 1
+      },
+      {
+        "r": "Zangado",
+        "p": 2
+      },
+      {
+        "r": "Soneca",
+        "p": 2
+      },
+      {
+        "r": "Mestre",
+        "p": 3
+      },
+      {
+        "r": "Feliz",
+        "p": 3
+      },
+      {
+        "r": "Atchim",
+        "p": 3
+      },
+      {
+        "r": "Dengoso",
+        "p": 4
+      }
+    ]
+  },
+  {
+    "id": "princesas-disney",
+    "pergunta": "Cite uma princesa da Disney.",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Cinderela",
+        "p": 1
+      },
+      {
+        "r": "Branca de Neve",
+        "p": 1
+      },
+      {
+        "r": "Ariel",
+        "p": 2,
+        "alias": [
+          "pequena sereia"
+        ]
+      },
+      {
+        "r": "Bela",
+        "p": 2
+      },
+      {
+        "r": "Rapunzel",
+        "p": 2
+      },
+      {
+        "r": "Aurora",
+        "p": 3,
+        "alias": [
+          "bela adormecida"
+        ]
+      },
+      {
+        "r": "Jasmine",
+        "p": 3
+      },
+      {
+        "r": "Moana",
+        "p": 3
+      },
+      {
+        "r": "Mulan",
+        "p": 3
+      },
+      {
+        "r": "Pocahontas",
+        "p": 4
+      },
+      {
+        "r": "Tiana",
+        "p": 5
+      },
+      {
+        "r": "Merida",
+        "p": 5
+      },
+      {
+        "r": "Raya",
+        "p": 8
+      }
+    ],
+    "mensagens": {
+      "elsa": "A Elsa é rainha, e fica fora da lista oficial de princesas!",
+      "anna": "A Anna fica fora da lista oficial de princesas da Disney."
+    }
+  },
+  {
+    "id": "casas-hogwarts",
+    "pergunta": "Cite uma das casas de Hogwarts.",
+    "categoria": "entretenimento",
+    "respostas": [
+      {
+        "r": "Grifinória",
+        "p": 1,
+        "alias": [
+          "gryffindor"
+        ]
+      },
+      {
+        "r": "Sonserina",
+        "p": 1,
+        "alias": [
+          "slytherin"
+        ]
+      },
+      {
+        "r": "Corvinal",
+        "p": 3,
+        "alias": [
+          "ravenclaw"
+        ]
+      },
+      {
+        "r": "Lufa-Lufa",
+        "p": 3,
+        "alias": [
+          "hufflepuff"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "horoscopo-chines",
+    "pergunta": "Cite um animal do horóscopo chinês.",
+    "categoria": "cultura",
+    "respostas": [
+      {
+        "r": "Dragão",
+        "p": 1
+      },
+      {
+        "r": "Rato",
+        "p": 2
+      },
+      {
+        "r": "Tigre",
+        "p": 2
+      },
+      {
+        "r": "Macaco",
+        "p": 2
+      },
+      {
+        "r": "Boi",
+        "p": 3
+      },
+      {
+        "r": "Coelho",
+        "p": 3
+      },
+      {
+        "r": "Serpente",
+        "p": 3,
+        "alias": [
+          "cobra"
+        ]
+      },
+      {
+        "r": "Cavalo",
+        "p": 3
+      },
+      {
+        "r": "Galo",
+        "p": 3
+      },
+      {
+        "r": "Cão",
+        "p": 3,
+        "alias": [
+          "cachorro"
+        ]
+      },
+      {
+        "r": "Porco",
+        "p": 3,
+        "alias": [
+          "javali"
+        ]
+      },
+      {
+        "r": "Cabra",
+        "p": 4,
+        "alias": [
+          "carneiro",
+          "ovelha",
+          "bode"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pecas-xadrez",
+    "pergunta": "Cite uma peça do xadrez.",
+    "categoria": "cultura",
+    "respostas": [
+      {
+        "r": "Rei",
+        "p": 1
+      },
+      {
+        "r": "Rainha",
+        "p": 1,
+        "alias": [
+          "dama"
+        ]
+      },
+      {
+        "r": "Peão",
+        "p": 2
+      },
+      {
+        "r": "Torre",
+        "p": 2
+      },
+      {
+        "r": "Cavalo",
+        "p": 2
+      },
+      {
+        "r": "Bispo",
+        "p": 3
+      }
+    ]
+  },
+  {
+    "id": "naipes",
+    "pergunta": "Cite um naipe do baralho.",
+    "categoria": "cultura",
+    "respostas": [
+      {
+        "r": "Copas",
+        "p": 1
+      },
+      {
+        "r": "Espadas",
+        "p": 2
+      },
+      {
+        "r": "Ouros",
+        "p": 2
+      },
+      {
+        "r": "Paus",
+        "p": 3
+      }
+    ]
+  },
+  {
+    "id": "meses-31-dias",
+    "pergunta": "Cite um mês que tem 31 dias.",
+    "categoria": "cultura",
+    "respostas": [
+      {
+        "r": "Janeiro",
+        "p": 1
+      },
+      {
+        "r": "Julho",
+        "p": 1
+      },
+      {
+        "r": "Dezembro",
+        "p": 1
+      },
+      {
+        "r": "Março",
+        "p": 2
+      },
+      {
+        "r": "Agosto",
+        "p": 2
+      },
+      {
+        "r": "Maio",
+        "p": 3
+      },
+      {
+        "r": "Outubro",
+        "p": 3
+      }
+    ],
+    "mensagens": {
+      "junho": "Junho tem 30 dias.",
+      "abril": "Abril tem 30 dias.",
+      "setembro": "Setembro tem 30 dias.",
+      "novembro": "Novembro tem 30 dias.",
+      "fevereiro": "Fevereiro tem 28 ou 29 dias."
+    }
+  },
+  {
+    "id": "premios-nobel",
+    "pergunta": "Cite uma categoria do Prêmio Nobel.",
+    "categoria": "cultura",
+    "respostas": [
+      {
+        "r": "Paz",
+        "p": 1
+      },
+      {
+        "r": "Literatura",
+        "p": 2
+      },
+      {
+        "r": "Física",
+        "p": 2
+      },
+      {
+        "r": "Química",
+        "p": 2
+      },
+      {
+        "r": "Medicina",
+        "p": 3,
+        "alias": [
+          "fisiologia ou medicina",
+          "fisiologia"
+        ]
+      },
+      {
+        "r": "Economia",
+        "p": 4,
+        "alias": [
+          "ciencias economicas"
+        ]
+      }
+    ],
+    "mensagens": {
+      "matematica": "Não existe Nobel de Matemática!"
+    }
+  },
+  {
+    "id": "campeoes-copa",
+    "pergunta": "Cite uma seleção que já foi campeã da Copa do Mundo masculina.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Brasil",
+        "p": 1
+      },
+      {
+        "r": "Alemanha",
+        "p": 1
+      },
+      {
+        "r": "Argentina",
+        "p": 1
+      },
+      {
+        "r": "Itália",
+        "p": 2
+      },
+      {
+        "r": "França",
+        "p": 2
+      },
+      {
+        "r": "Uruguai",
+        "p": 4
+      },
+      {
+        "r": "Espanha",
+        "p": 4
+      },
+      {
+        "r": "Inglaterra",
+        "p": 5
+      }
+    ],
+    "mensagens": {
+      "holanda": "A Holanda foi vice três vezes, mas nunca ganhou!"
+    }
+  },
+  {
+    "id": "libertadores-brasileiros",
+    "pergunta": "Cite um clube brasileiro campeão da Copa Libertadores.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Flamengo",
+        "p": 1
+      },
+      {
+        "r": "Palmeiras",
+        "p": 1
+      },
+      {
+        "r": "São Paulo",
+        "p": 2
+      },
+      {
+        "r": "Grêmio",
+        "p": 2
+      },
+      {
+        "r": "Santos",
+        "p": 3
+      },
+      {
+        "r": "Internacional",
+        "p": 3
+      },
+      {
+        "r": "Corinthians",
+        "p": 3
+      },
+      {
+        "r": "Cruzeiro",
+        "p": 4
+      },
+      {
+        "r": "Botafogo",
+        "p": 4
+      },
+      {
+        "r": "Fluminense",
+        "p": 4
+      },
+      {
+        "r": "Atlético-MG",
+        "p": 5,
+        "alias": [
+          "atletico mineiro",
+          "galo"
+        ]
+      },
+      {
+        "r": "Vasco",
+        "p": 6,
+        "alias": [
+          "vasco da gama"
+        ]
+      }
+    ],
+    "mensagens": {
+      "atletico pr": "O Athletico-PR foi vice em 2005 e 2022, mas nunca ganhou.",
+      "athletico pr": "O Athletico-PR foi vice em 2005 e 2022, mas nunca ganhou.",
+      "athletico": "O Athletico-PR foi vice em 2005 e 2022, mas nunca ganhou.",
+      "athletico paranaense": "O Athletico-PR foi vice em 2005 e 2022, mas nunca ganhou.",
+      "atletico paranaense": "O Athletico-PR foi vice em 2005 e 2022, mas nunca ganhou.",
+      "atletico go": "O Atlético-GO nunca ganhou a Libertadores.",
+      "atletico goianiense": "O Atlético-GO nunca ganhou a Libertadores."
+    }
+  },
+  {
+    "id": "campeoes-f1",
+    "pergunta": "Cite um piloto brasileiro campeão mundial de Fórmula 1.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Ayrton Senna",
+        "p": 1,
+        "alias": [
+          "senna"
+        ]
+      },
+      {
+        "r": "Nelson Piquet",
+        "p": 3,
+        "alias": [
+          "piquet"
+        ]
+      },
+      {
+        "r": "Emerson Fittipaldi",
+        "p": 4,
+        "alias": [
+          "fittipaldi",
+          "emerson"
+        ]
+      }
+    ],
+    "mensagens": {
+      "rubinho": "O Rubinho chegou perto, mas nunca foi campeão.",
+      "barrichello": "O Rubinho chegou perto, mas nunca foi campeão.",
+      "felipe massa": "O Massa foi vice em 2008, por um ponto!",
+      "massa": "O Massa foi vice em 2008, por um ponto!"
+    }
+  },
+  {
+    "id": "grand-slams",
+    "pergunta": "Cite um dos quatro torneios Grand Slam de tênis.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Wimbledon",
+        "p": 1
+      },
+      {
+        "r": "Roland Garros",
+        "p": 2
+      },
+      {
+        "r": "US Open",
+        "p": 3,
+        "alias": [
+          "aberto dos estados unidos"
+        ]
+      },
+      {
+        "r": "Australian Open",
+        "p": 5,
+        "alias": [
+          "aberto da australia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "esportes-olimpicos",
+    "pergunta": "Cite um esporte disputado nos Jogos Olímpicos de Paris 2024.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Futebol",
+        "p": 1
+      },
+      {
+        "r": "Vôlei",
+        "p": 1,
+        "alias": [
+          "voleibol"
+        ]
+      },
+      {
+        "r": "Natação",
+        "p": 1
+      },
+      {
+        "r": "Atletismo",
+        "p": 1
+      },
+      {
+        "r": "Basquete",
+        "p": 2,
+        "alias": [
+          "basquetebol"
+        ]
+      },
+      {
+        "r": "Judô",
+        "p": 2
+      },
+      {
+        "r": "Ginástica",
+        "p": 2,
+        "alias": [
+          "ginastica artistica",
+          "ginastica ritmica"
+        ]
+      },
+      {
+        "r": "Skate",
+        "p": 2
+      },
+      {
+        "r": "Surfe",
+        "p": 2,
+        "alias": [
+          "surf"
+        ]
+      },
+      {
+        "r": "Handebol",
+        "p": 3
+      },
+      {
+        "r": "Tênis",
+        "p": 3
+      },
+      {
+        "r": "Boxe",
+        "p": 3
+      },
+      {
+        "r": "Vôlei de praia",
+        "p": 3
+      },
+      {
+        "r": "Ciclismo",
+        "p": 4
+      },
+      {
+        "r": "Tênis de mesa",
+        "p": 4,
+        "alias": [
+          "pingue pongue"
+        ]
+      },
+      {
+        "r": "Taekwondo",
+        "p": 5
+      },
+      {
+        "r": "Canoagem",
+        "p": 5
+      },
+      {
+        "r": "Remo",
+        "p": 5
+      },
+      {
+        "r": "Hipismo",
+        "p": 5
+      },
+      {
+        "r": "Esgrima",
+        "p": 5
+      },
+      {
+        "r": "Luta",
+        "p": 5,
+        "alias": [
+          "luta olimpica",
+          "luta livre",
+          "luta greco romana"
+        ]
+      },
+      {
+        "r": "Levantamento de peso",
+        "p": 5
+      },
+      {
+        "r": "Vela",
+        "p": 5
+      },
+      {
+        "r": "Triatlo",
+        "p": 6
+      },
+      {
+        "r": "Polo aquático",
+        "p": 6
+      },
+      {
+        "r": "Saltos ornamentais",
+        "p": 6
+      },
+      {
+        "r": "Tiro esportivo",
+        "p": 6,
+        "alias": [
+          "tiro"
+        ]
+      },
+      {
+        "r": "Tiro com arco",
+        "p": 6,
+        "alias": [
+          "arco e flecha"
+        ]
+      },
+      {
+        "r": "Golfe",
+        "p": 6,
+        "alias": [
+          "golf"
+        ]
+      },
+      {
+        "r": "Rúgbi",
+        "p": 6,
+        "alias": [
+          "rugby"
+        ]
+      },
+      {
+        "r": "Badminton",
+        "p": 7
+      },
+      {
+        "r": "Escalada",
+        "p": 7
+      },
+      {
+        "r": "Breaking",
+        "p": 7,
+        "alias": [
+          "breakdance",
+          "break"
+        ]
+      },
+      {
+        "r": "Nado artístico",
+        "p": 7,
+        "alias": [
+          "nado sincronizado"
+        ]
+      },
+      {
+        "r": "Hóquei sobre grama",
+        "p": 8,
+        "alias": [
+          "hoquei"
+        ]
+      },
+      {
+        "r": "Pentatlo moderno",
+        "p": 8,
+        "alias": [
+          "pentatlo"
+        ]
+      },
+      {
+        "r": "Maratona aquática",
+        "p": 8
+      }
+    ],
+    "mensagens": {
+      "karate": "O karatê esteve em Tóquio 2020, mas saiu em Paris 2024.",
+      "beisebol": "O beisebol não estava em Paris 2024.",
+      "xadrez": "Xadrez ainda não é olímpico!"
+    }
+  },
+  {
+    "id": "posicoes-volei",
+    "pergunta": "Cite uma posição do vôlei de quadra.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Levantador",
+        "p": 2
+      },
+      {
+        "r": "Líbero",
+        "p": 2
+      },
+      {
+        "r": "Ponteiro",
+        "p": 3
+      },
+      {
+        "r": "Central",
+        "p": 4,
+        "alias": [
+          "meio de rede"
+        ]
+      },
+      {
+        "r": "Oposto",
+        "p": 4
+      }
+    ]
+  },
+  {
+    "id": "posicoes-futebol",
+    "pergunta": "Cite uma posição de jogador de futebol.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Goleiro",
+        "p": 1
+      },
+      {
+        "r": "Atacante",
+        "p": 1
+      },
+      {
+        "r": "Zagueiro",
+        "p": 1
+      },
+      {
+        "r": "Lateral",
+        "p": 2
+      },
+      {
+        "r": "Meio-campo",
+        "p": 2,
+        "alias": [
+          "meia",
+          "meio campista"
+        ]
+      },
+      {
+        "r": "Volante",
+        "p": 3
+      },
+      {
+        "r": "Centroavante",
+        "p": 3
+      },
+      {
+        "r": "Ponta",
+        "p": 4
+      },
+      {
+        "r": "Ala",
+        "p": 5
+      },
+      {
+        "r": "Líbero",
+        "p": 7
+      }
+    ]
   }
 ]
