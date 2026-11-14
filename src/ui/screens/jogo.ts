@@ -1,5 +1,5 @@
 import { BANCO } from "../../data/banco";
-import { dataHojeBrasilia, perguntasAleatorias, perguntasDoDia } from "../../game/daily";
+import { dataHojeBrasilia, perguntasAleatorias } from "../../game/daily";
 import {
   avancar,
   criarPartida,
@@ -23,7 +23,7 @@ import { criarMedidor } from "../components/medidorProfundidade";
 import { definirProfundidade } from "../components/oceano";
 import { $, definirTitulo, esc, metros } from "../dom";
 import type { Tela } from "../router";
-import { sessao } from "../sessao";
+import { obterOuCriarDiario, persistir, sessao } from "../sessao";
 import { renderizarFim } from "./fim";
 import { htmlRevelacao } from "./revelacao";
 
@@ -34,14 +34,8 @@ const JANELA_ESC_MS = 2000;
 const ESPERA_REVELACAO_MS = 300;
 
 function obterPartida(modo: Modo): Partida {
-  const hoje = dataHojeBrasilia();
-  if (modo === "diario") {
-    if (sessao.diario?.data !== hoje) {
-      sessao.diario = criarPartida("diario", hoje, perguntasDoDia(BANCO, hoje, PERGUNTAS_POR_PARTIDA));
-    }
-    return sessao.diario;
-  }
-  sessao.ilimitado = criarPartida("ilimitado", hoje, perguntasAleatorias(BANCO, PERGUNTAS_POR_PARTIDA));
+  if (modo === "diario") return obterOuCriarDiario();
+  sessao.ilimitado = criarPartida("ilimitado", dataHojeBrasilia(), perguntasAleatorias(BANCO, PERGUNTAS_POR_PARTIDA));
   return sessao.ilimitado;
 }
 
@@ -94,6 +88,8 @@ export function telaJogo(modo: Modo): Tela {
 
     function mostrar(): void {
       limparEtapa();
+      // Toda mudança de estado passa por aqui: salva antes de desenhar a próxima etapa.
+      persistir(partida);
       definirProfundidade(profundidadeDaPartida(partida));
       if (partida.finalizada) {
         renderizarFim(raiz, partida, perguntas);
@@ -173,6 +169,7 @@ export function telaJogo(modo: Modo): Tela {
             campo.select();
             return;
           case "erro":
+            persistir(partida);
             adicionarTentativa(texto.trim());
             lume.falar(r.mensagem ?? FALAS.erro, "triste");
             anuncio.textContent = `${texto.trim()}: não está na lista.`;
@@ -255,6 +252,7 @@ export function telaJogo(modo: Modo): Tela {
       // Sair no meio de uma pergunta conta como pergunta perdida (evita ganhar tempo extra).
       if (cronometro && !partida.finalizada && !perguntaEncerrada(estadoAtual(partida))) {
         esgotarTempo(partida);
+        persistir(partida);
       }
       limparEtapa();
     };

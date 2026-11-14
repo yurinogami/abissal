@@ -113,6 +113,18 @@ export function esgotarTempo(partida: Partida): void {
   estado.tempoUsado = TEMPO_POR_PERGUNTA;
 }
 
+/**
+ * Retoma uma partida salva. Se a página foi recarregada no meio de uma
+ * pergunta, ela é considerada perdida (evita ganhar tempo extra recarregando).
+ * Devolve true se a pergunta atual foi perdida.
+ */
+export function retomarPartida(partida: Partida): boolean {
+  const estado = estadoAtual(partida);
+  if (partida.finalizada || !estado || perguntaEncerrada(estado)) return false;
+  esgotarTempo(partida);
+  return true;
+}
+
 /** Vai para a próxima pergunta (só depois que a atual terminou). Finaliza após a última. */
 export function avancar(partida: Partida): void {
   if (partida.finalizada) return;

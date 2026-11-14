@@ -594,3 +594,49 @@
     transition: none;
   }
 }
+
+/* Início: contador e estatísticas */
+.contador {
+  color: var(--texto-suave);
+}
+
+.contador-tempo {
+  color: var(--texto);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.estatisticas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 0;
+  text-align: center;
+}
+
+.estatisticas div {
+  padding: 12px;
+  border-radius: var(--raio);
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+}
+
+.estatisticas dt {
+  color: var(--texto-suave);
+  font-size: 0.875rem;
+}
+
+.estatisticas dd {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Fim: copiar resultado */
+.copiar-aviso {
+  margin: 0;
+  min-height: 1.5em;
+  text-align: center;
+  color: var(--bioluz);
+}
