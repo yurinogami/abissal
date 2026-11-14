@@ -129,4 +129,44 @@ describe("perguntasAleatorias", () => {
     const qs = perguntasAleatorias(BANCO, 7, mulberry32(3));
     expect(new Set(ids(qs)).size).toBe(7);
   });
+
+  it("não usa perguntas que ainda não estão disponíveis", () => {
+    const banco = bancoFalso(10).map((q, i) => (i < 8 ? { ...q, desde: "2030-01-01" } : q));
+    const qs = perguntasAleatorias(banco, 7, mulberry32(3), "2026-11-20");
+    expect(ids(qs).sort()).toEqual(["q8", "q9"]);
+  });
+});
+
+describe("mudanças no banco depois do lançamento", () => {
+  const lancamento = "2026-01-01";
+  const dias = (banco: Pergunta[], quantos: number) =>
+    Array.from({ length: quantos }, (_, d) => ids(perguntasDoDia(banco, somarDias(lancamento, d), 7, lancamento)));
+
+  it("perguntas novas com `desde` no futuro não mudam os dias anteriores", () => {
+    const original = bancoFalso(60);
+    const novo = [...original, ...bancoFalso(90).slice(60).map((q) => ({ ...q, desde: "2026-03-01" }))];
+    const antes = dias(original, 59); // 01/01 a 28/02
+    expect(dias(novo, 59)).toEqual(antes);
+  });
+
+  it("perguntas novas no meio do arquivo também não mudam nada antes do `desde`", () => {
+    const original = bancoFalso(60);
+    const extra = { ...bancoFalso(1)[0], id: "nova", desde: "2026-02-10" };
+    const novo = [...original.slice(0, 30), extra, ...original.slice(30)];
+    expect(dias(novo, 40)).toEqual(dias(original, 40)); // até 09/02
+  });
+
+  it("a partir do `desde`, a pergunta nova pode aparecer", () => {
+    const banco = [...bancoFalso(20), { ...bancoFalso(1)[0], id: "nova", desde: "2026-01-10" }];
+    expect(dias(banco, 9).flat()).not.toContain("nova");
+    expect(dias(banco, 60).flat()).toContain("nova");
+  });
+
+  it("aposentar com `ate` não muda os dias até essa data", () => {
+    const original = bancoFalso(60);
+    const aposentado = original.map((q) => (q.id === "q5" ? { ...q, ate: "2026-02-15" } : q));
+    expect(dias(aposentado, 46)).toEqual(dias(original, 46)); // até 15/02
+    const depois = Array.from({ length: 60 }, (_, d) => ids(perguntasDoDia(aposentado, somarDias("2026-02-16", d), 7, lancamento)));
+    expect(depois.flat()).not.toContain("q5");
+  });
 });

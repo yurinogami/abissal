@@ -13,3 +13,6 @@ PROGRESSO.md
 
 # Configurações locais do Claude Code
 .claude/
+
+# Wrangler (Cloudflare)
+.wrangler/

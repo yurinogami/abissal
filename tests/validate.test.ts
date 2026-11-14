@@ -190,6 +190,15 @@ describe("banco de perguntas", () => {
     }
   });
 
+  it("usa datas válidas em `desde` e `ate`", () => {
+    const data = /^\d{4}-\d{2}-\d{2}$/;
+    for (const q of BANCO) {
+      if (q.desde) expect(q.desde, q.id).toMatch(data);
+      if (q.ate) expect(q.ate, q.id).toMatch(data);
+      if (q.desde && q.ate) expect(q.desde <= q.ate, q.id).toBe(true);
+    }
+  });
+
   it("tem pelo menos 100 perguntas (meta da Fase 5)", () => {
     expect(BANCO.length).toBeGreaterThanOrEqual(100);
   });
