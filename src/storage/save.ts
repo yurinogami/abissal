@@ -72,11 +72,12 @@ export function ehPartidaValida(v: unknown, data: string, idsValidos?: ReadonlyS
   const p = v as Record<string, unknown>;
   if (p.modo !== "diario" || p.data !== data) return false;
   if (!Array.isArray(p.perguntas) || !p.perguntas.every((id) => typeof id === "string")) return false;
-  if (idsValidos && !p.perguntas.every((id) => idsValidos.has(id as string))) return false;
-  if (!Array.isArray(p.estados) || p.estados.length !== p.perguntas.length) return false;
+  const perguntas = p.perguntas as string[];
+  if (idsValidos && !perguntas.every((id) => idsValidos.has(id))) return false;
+  if (!Array.isArray(p.estados) || p.estados.length !== perguntas.length) return false;
   if (!p.estados.every(ehEstado)) return false;
-  if (!p.estados.every((e, i) => (e as EstadoPergunta).perguntaId === p.perguntas[i])) return false;
-  if (!Number.isInteger(p.atual) || (p.atual as number) < 0 || (p.atual as number) >= p.perguntas.length) return false;
+  if (!(p.estados as EstadoPergunta[]).every((e, i) => e.perguntaId === perguntas[i])) return false;
+  if (!Number.isInteger(p.atual) || (p.atual as number) < 0 || (p.atual as number) >= perguntas.length) return false;
   return typeof p.finalizada === "boolean";
 }
 
