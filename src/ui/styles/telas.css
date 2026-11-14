@@ -19,8 +19,10 @@
 }
 
 .logo {
-  font-size: 3rem;
-  letter-spacing: 0.02em;
+  font-size: clamp(2.75rem, 12vw, 4rem);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  text-shadow: 0 0 24px rgba(124, 245, 210, 0.35);
 }
 
 .slogan {
@@ -92,7 +94,7 @@
 
 .cronometro-preenchimento {
   height: 100%;
-  background: var(--destaque);
+  background: var(--bioluz);
   transform-origin: left center;
   transition: transform 0.1s linear;
 }
@@ -110,7 +112,7 @@
 }
 
 .cronometro.alerta .cronometro-numero {
-  color: var(--alerta);
+  color: var(--alerta-texto);
 }
 
 .pergunta-texto {
@@ -145,7 +147,7 @@
 
 .resposta-campo:focus-visible {
   outline: none;
-  border-color: var(--destaque);
+  border-color: var(--bioluz);
 }
 
 .resposta-campo.tremer {
@@ -229,7 +231,7 @@
 }
 
 .raridade-comum {
-  color: var(--destaque);
+  color: var(--bioluz);
 }
 .raridade-media {
   color: var(--medio);
@@ -238,7 +240,7 @@
   color: var(--raro);
 }
 .raridade-erro {
-  color: var(--alerta);
+  color: var(--alerta-texto);
 }
 
 .raridade {
@@ -254,7 +256,7 @@
   flex: 1;
   height: 8px;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--destaque), var(--medio), var(--raro));
+  background: linear-gradient(90deg, var(--bioluz), var(--medio), var(--raro));
 }
 
 .raridade-marcador {
@@ -264,7 +266,7 @@
   height: 18px;
   border-radius: 50%;
   background: var(--texto);
-  border: 3px solid var(--fundo);
+  border: 3px solid var(--abismo);
   transform: translate(-50%, -50%);
 }
 
