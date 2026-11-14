@@ -1,0 +1,1868 @@
+[
+  {
+    "id": "estados",
+    "pergunta": "Cite um estado brasileiro.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "São Paulo",
+        "p": 1,
+        "alias": [
+          "sp"
+        ]
+      },
+      {
+        "r": "Rio de Janeiro",
+        "p": 1,
+        "alias": [
+          "rj"
+        ]
+      },
+      {
+        "r": "Minas Gerais",
+        "p": 2,
+        "alias": [
+          "mg"
+        ]
+      },
+      {
+        "r": "Bahia",
+        "p": 2,
+        "alias": [
+          "ba"
+        ]
+      },
+      {
+        "r": "Rio Grande do Sul",
+        "p": 2,
+        "alias": [
+          "rs"
+        ]
+      },
+      {
+        "r": "Paraná",
+        "p": 3,
+        "alias": [
+          "pr"
+        ]
+      },
+      {
+        "r": "Santa Catarina",
+        "p": 3,
+        "alias": [
+          "sc"
+        ]
+      },
+      {
+        "r": "Pernambuco",
+        "p": 3,
+        "alias": [
+          "pe"
+        ]
+      },
+      {
+        "r": "Ceará",
+        "p": 4,
+        "alias": [
+          "ce"
+        ]
+      },
+      {
+        "r": "Goiás",
+        "p": 4,
+        "alias": [
+          "go"
+        ]
+      },
+      {
+        "r": "Amazonas",
+        "p": 4,
+        "alias": [
+          "am"
+        ]
+      },
+      {
+        "r": "Pará",
+        "p": 5,
+        "alias": [
+          "pa"
+        ]
+      },
+      {
+        "r": "Espírito Santo",
+        "p": 5,
+        "alias": [
+          "es"
+        ]
+      },
+      {
+        "r": "Mato Grosso",
+        "p": 6,
+        "alias": [
+          "mt"
+        ]
+      },
+      {
+        "r": "Maranhão",
+        "p": 6,
+        "alias": [
+          "ma"
+        ]
+      },
+      {
+        "r": "Paraíba",
+        "p": 6,
+        "alias": [
+          "pb"
+        ]
+      },
+      {
+        "r": "Rio Grande do Norte",
+        "p": 6,
+        "alias": [
+          "rn"
+        ]
+      },
+      {
+        "r": "Acre",
+        "p": 7,
+        "alias": [
+          "ac"
+        ]
+      },
+      {
+        "r": "Alagoas",
+        "p": 7,
+        "alias": [
+          "al"
+        ]
+      },
+      {
+        "r": "Piauí",
+        "p": 7,
+        "alias": [
+          "pi"
+        ]
+      },
+      {
+        "r": "Mato Grosso do Sul",
+        "p": 7,
+        "alias": [
+          "ms"
+        ]
+      },
+      {
+        "r": "Sergipe",
+        "p": 8,
+        "alias": [
+          "se"
+        ]
+      },
+      {
+        "r": "Tocantins",
+        "p": 8,
+        "alias": [
+          "to"
+        ]
+      },
+      {
+        "r": "Rondônia",
+        "p": 8,
+        "alias": [
+          "ro"
+        ]
+      },
+      {
+        "r": "Amapá",
+        "p": 9,
+        "alias": [
+          "ap"
+        ]
+      },
+      {
+        "r": "Roraima",
+        "p": 9,
+        "alias": [
+          "rr"
+        ]
+      }
+    ],
+    "mensagens": {
+      "distrito federal": "O DF é distrito federal, não estado. Tenta outro!",
+      "df": "O DF é distrito federal, não estado. Tenta outro!"
+    }
+  },
+  {
+    "id": "paises-america-do-sul",
+    "pergunta": "Cite um país da América do Sul.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Brasil",
+        "p": 1
+      },
+      {
+        "r": "Argentina",
+        "p": 1
+      },
+      {
+        "r": "Chile",
+        "p": 2
+      },
+      {
+        "r": "Uruguai",
+        "p": 2
+      },
+      {
+        "r": "Paraguai",
+        "p": 3
+      },
+      {
+        "r": "Peru",
+        "p": 3
+      },
+      {
+        "r": "Colômbia",
+        "p": 3
+      },
+      {
+        "r": "Venezuela",
+        "p": 4
+      },
+      {
+        "r": "Bolívia",
+        "p": 4
+      },
+      {
+        "r": "Equador",
+        "p": 5
+      },
+      {
+        "r": "Guiana",
+        "p": 8
+      },
+      {
+        "r": "Suriname",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "planetas",
+    "pergunta": "Cite um planeta do Sistema Solar.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Terra",
+        "p": 1
+      },
+      {
+        "r": "Marte",
+        "p": 1
+      },
+      {
+        "r": "Júpiter",
+        "p": 2
+      },
+      {
+        "r": "Saturno",
+        "p": 2
+      },
+      {
+        "r": "Vênus",
+        "p": 3
+      },
+      {
+        "r": "Mercúrio",
+        "p": 4
+      },
+      {
+        "r": "Urano",
+        "p": 5
+      },
+      {
+        "r": "Netuno",
+        "p": 5,
+        "alias": [
+          "neptuno"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "campeoes-brasileirao",
+    "pergunta": "Cite um time que já foi campeão do Campeonato Brasileiro (Série A).",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Flamengo",
+        "p": 1
+      },
+      {
+        "r": "Corinthians",
+        "p": 1
+      },
+      {
+        "r": "Palmeiras",
+        "p": 1
+      },
+      {
+        "r": "São Paulo",
+        "p": 2
+      },
+      {
+        "r": "Santos",
+        "p": 2
+      },
+      {
+        "r": "Vasco",
+        "p": 3,
+        "alias": [
+          "vasco da gama"
+        ]
+      },
+      {
+        "r": "Fluminense",
+        "p": 3
+      },
+      {
+        "r": "Grêmio",
+        "p": 3
+      },
+      {
+        "r": "Internacional",
+        "p": 3
+      },
+      {
+        "r": "Cruzeiro",
+        "p": 3
+      },
+      {
+        "r": "Atlético-MG",
+        "p": 4,
+        "alias": [
+          "atletico mineiro",
+          "galo"
+        ]
+      },
+      {
+        "r": "Botafogo",
+        "p": 4
+      },
+      {
+        "r": "Bahia",
+        "p": 6
+      },
+      {
+        "r": "Athletico-PR",
+        "p": 7,
+        "alias": [
+          "athletico paranaense",
+          "atletico paranaense",
+          "atletico pr"
+        ]
+      },
+      {
+        "r": "Sport",
+        "p": 8,
+        "alias": [
+          "sport recife"
+        ]
+      },
+      {
+        "r": "Coritiba",
+        "p": 8
+      },
+      {
+        "r": "Guarani",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "ossos",
+    "pergunta": "Cite um osso do corpo humano.",
+    "categoria": "corpo-humano",
+    "respostas": [
+      {
+        "r": "Crânio",
+        "p": 1
+      },
+      {
+        "r": "Costela",
+        "p": 1
+      },
+      {
+        "r": "Fêmur",
+        "p": 2
+      },
+      {
+        "r": "Vértebra",
+        "p": 2
+      },
+      {
+        "r": "Clavícula",
+        "p": 3
+      },
+      {
+        "r": "Tíbia",
+        "p": 3
+      },
+      {
+        "r": "Úmero",
+        "p": 4
+      },
+      {
+        "r": "Mandíbula",
+        "p": 4
+      },
+      {
+        "r": "Falange",
+        "p": 4
+      },
+      {
+        "r": "Fíbula",
+        "p": 5,
+        "alias": [
+          "perônio"
+        ]
+      },
+      {
+        "r": "Rádio",
+        "p": 5
+      },
+      {
+        "r": "Patela",
+        "p": 5,
+        "alias": [
+          "rótula"
+        ]
+      },
+      {
+        "r": "Cóccix",
+        "p": 5
+      },
+      {
+        "r": "Ulna",
+        "p": 6,
+        "alias": [
+          "cúbito"
+        ]
+      },
+      {
+        "r": "Escápula",
+        "p": 6,
+        "alias": [
+          "omoplata"
+        ]
+      },
+      {
+        "r": "Esterno",
+        "p": 6
+      },
+      {
+        "r": "Frontal",
+        "p": 7
+      },
+      {
+        "r": "Nasal",
+        "p": 7
+      },
+      {
+        "r": "Maxila",
+        "p": 7,
+        "alias": [
+          "maxilar"
+        ]
+      },
+      {
+        "r": "Sacro",
+        "p": 7
+      },
+      {
+        "r": "Ilíaco",
+        "p": 7,
+        "alias": [
+          "osso do quadril",
+          "ílio"
+        ]
+      },
+      {
+        "r": "Metacarpo",
+        "p": 7
+      },
+      {
+        "r": "Metatarso",
+        "p": 7
+      },
+      {
+        "r": "Martelo",
+        "p": 7
+      },
+      {
+        "r": "Estribo",
+        "p": 7
+      },
+      {
+        "r": "Bigorna",
+        "p": 8
+      },
+      {
+        "r": "Calcâneo",
+        "p": 8
+      },
+      {
+        "r": "Occipital",
+        "p": 8
+      },
+      {
+        "r": "Parietal",
+        "p": 8
+      },
+      {
+        "r": "Temporal",
+        "p": 8
+      },
+      {
+        "r": "Zigomático",
+        "p": 8
+      },
+      {
+        "r": "Tálus",
+        "p": 9,
+        "alias": [
+          "astrágalo"
+        ]
+      },
+      {
+        "r": "Escafoide",
+        "p": 9
+      },
+      {
+        "r": "Hioide",
+        "p": 10
+      },
+      {
+        "r": "Esfenoide",
+        "p": 10
+      },
+      {
+        "r": "Etmoide",
+        "p": 10
+      }
+    ]
+  },
+  {
+    "id": "gases-nobres",
+    "pergunta": "Cite um gás nobre.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Hélio",
+        "p": 2
+      },
+      {
+        "r": "Neônio",
+        "p": 3,
+        "alias": [
+          "neon"
+        ]
+      },
+      {
+        "r": "Argônio",
+        "p": 4,
+        "alias": [
+          "argon"
+        ]
+      },
+      {
+        "r": "Criptônio",
+        "p": 6,
+        "alias": [
+          "kripton",
+          "criptonio"
+        ]
+      },
+      {
+        "r": "Xenônio",
+        "p": 6,
+        "alias": [
+          "xenon"
+        ]
+      },
+      {
+        "r": "Radônio",
+        "p": 8,
+        "alias": [
+          "radon"
+        ]
+      },
+      {
+        "r": "Oganessônio",
+        "p": 10,
+        "alias": [
+          "oganesson"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "capitais-europeias",
+    "pergunta": "Cite a capital de um país da Europa.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Paris",
+        "p": 1
+      },
+      {
+        "r": "Londres",
+        "p": 1
+      },
+      {
+        "r": "Roma",
+        "p": 1
+      },
+      {
+        "r": "Madri",
+        "p": 2,
+        "alias": [
+          "madrid"
+        ]
+      },
+      {
+        "r": "Lisboa",
+        "p": 2
+      },
+      {
+        "r": "Berlim",
+        "p": 2
+      },
+      {
+        "r": "Atenas",
+        "p": 4
+      },
+      {
+        "r": "Moscou",
+        "p": 4
+      },
+      {
+        "r": "Amsterdã",
+        "p": 4,
+        "alias": [
+          "amsterdam"
+        ]
+      },
+      {
+        "r": "Bruxelas",
+        "p": 5
+      },
+      {
+        "r": "Viena",
+        "p": 5
+      },
+      {
+        "r": "Dublin",
+        "p": 5
+      },
+      {
+        "r": "Praga",
+        "p": 6
+      },
+      {
+        "r": "Varsóvia",
+        "p": 6
+      },
+      {
+        "r": "Budapeste",
+        "p": 6
+      },
+      {
+        "r": "Estocolmo",
+        "p": 6
+      },
+      {
+        "r": "Oslo",
+        "p": 6
+      },
+      {
+        "r": "Copenhague",
+        "p": 6,
+        "alias": [
+          "copenhagen"
+        ]
+      },
+      {
+        "r": "Kiev",
+        "p": 6,
+        "alias": [
+          "kyiv"
+        ]
+      },
+      {
+        "r": "Helsinque",
+        "p": 7,
+        "alias": [
+          "helsinki"
+        ]
+      },
+      {
+        "r": "Cidade do Vaticano",
+        "p": 7,
+        "alias": [
+          "vaticano"
+        ]
+      },
+      {
+        "r": "Berna",
+        "p": 8,
+        "alias": [
+          "bern"
+        ]
+      },
+      {
+        "r": "Bucareste",
+        "p": 8
+      },
+      {
+        "r": "Sófia",
+        "p": 8
+      },
+      {
+        "r": "Belgrado",
+        "p": 8
+      },
+      {
+        "r": "Zagreb",
+        "p": 8
+      },
+      {
+        "r": "Minsk",
+        "p": 8
+      },
+      {
+        "r": "Sarajevo",
+        "p": 8
+      },
+      {
+        "r": "Reykjavík",
+        "p": 8,
+        "alias": [
+          "reiquiavique"
+        ]
+      },
+      {
+        "r": "Luxemburgo",
+        "p": 8
+      },
+      {
+        "r": "Liubliana",
+        "p": 9,
+        "alias": [
+          "ljubljana"
+        ]
+      },
+      {
+        "r": "Bratislava",
+        "p": 9
+      },
+      {
+        "r": "Tallinn",
+        "p": 9,
+        "alias": [
+          "talin"
+        ]
+      },
+      {
+        "r": "Riga",
+        "p": 9
+      },
+      {
+        "r": "Vilnius",
+        "p": 9
+      },
+      {
+        "r": "Tirana",
+        "p": 9
+      },
+      {
+        "r": "Mônaco",
+        "p": 9
+      },
+      {
+        "r": "Valeta",
+        "p": 9,
+        "alias": [
+          "valletta"
+        ]
+      },
+      {
+        "r": "San Marino",
+        "p": 9
+      },
+      {
+        "r": "Nicósia",
+        "p": 10
+      },
+      {
+        "r": "Chisinau",
+        "p": 10,
+        "alias": [
+          "quixinau"
+        ]
+      },
+      {
+        "r": "Escópia",
+        "p": 10,
+        "alias": [
+          "skopje"
+        ]
+      },
+      {
+        "r": "Podgorica",
+        "p": 10
+      },
+      {
+        "r": "Vaduz",
+        "p": 10
+      },
+      {
+        "r": "Andorra-a-Velha",
+        "p": 10,
+        "alias": [
+          "andorra la vella"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cores-arco-iris",
+    "pergunta": "Cite uma das sete cores do arco-íris.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Vermelho",
+        "p": 1
+      },
+      {
+        "r": "Amarelo",
+        "p": 1
+      },
+      {
+        "r": "Verde",
+        "p": 1
+      },
+      {
+        "r": "Laranja",
+        "p": 2
+      },
+      {
+        "r": "Azul",
+        "p": 2
+      },
+      {
+        "r": "Violeta",
+        "p": 5,
+        "alias": [
+          "roxo"
+        ]
+      },
+      {
+        "r": "Anil",
+        "p": 7,
+        "alias": [
+          "índigo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "instrumentos-corda",
+    "pergunta": "Cite um instrumento musical de cordas.",
+    "categoria": "musica",
+    "respostas": [
+      {
+        "r": "Violão",
+        "p": 1
+      },
+      {
+        "r": "Guitarra",
+        "p": 1
+      },
+      {
+        "r": "Violino",
+        "p": 2
+      },
+      {
+        "r": "Baixo",
+        "p": 3
+      },
+      {
+        "r": "Cavaquinho",
+        "p": 4
+      },
+      {
+        "r": "Harpa",
+        "p": 4
+      },
+      {
+        "r": "Viola",
+        "p": 5
+      },
+      {
+        "r": "Violoncelo",
+        "p": 5,
+        "alias": [
+          "cello"
+        ]
+      },
+      {
+        "r": "Contrabaixo",
+        "p": 5
+      },
+      {
+        "r": "Ukulele",
+        "p": 5
+      },
+      {
+        "r": "Bandolim",
+        "p": 6
+      },
+      {
+        "r": "Banjo",
+        "p": 6
+      },
+      {
+        "r": "Viola caipira",
+        "p": 7
+      },
+      {
+        "r": "Berimbau",
+        "p": 8
+      },
+      {
+        "r": "Cítara",
+        "p": 8
+      },
+      {
+        "r": "Alaúde",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "mamiferos-marinhos",
+    "pergunta": "Cite um mamífero que vive no mar.",
+    "categoria": "natureza",
+    "respostas": [
+      {
+        "r": "Baleia",
+        "p": 1,
+        "alias": [
+          "jubarte"
+        ],
+        "prefixo": "baleia"
+      },
+      {
+        "r": "Golfinho",
+        "p": 1
+      },
+      {
+        "r": "Foca",
+        "p": 2
+      },
+      {
+        "r": "Leão-marinho",
+        "p": 3
+      },
+      {
+        "r": "Orca",
+        "p": 3
+      },
+      {
+        "r": "Morsa",
+        "p": 4
+      },
+      {
+        "r": "Peixe-boi",
+        "p": 5
+      },
+      {
+        "r": "Beluga",
+        "p": 6
+      },
+      {
+        "r": "Cachalote",
+        "p": 6
+      },
+      {
+        "r": "Boto",
+        "p": 6
+      },
+      {
+        "r": "Narval",
+        "p": 7
+      },
+      {
+        "r": "Lontra-marinha",
+        "p": 7
+      },
+      {
+        "r": "Elefante-marinho",
+        "p": 7
+      },
+      {
+        "r": "Urso-polar",
+        "p": 8
+      },
+      {
+        "r": "Toninha",
+        "p": 9
+      },
+      {
+        "r": "Dugongo",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "linguagens-programacao",
+    "pergunta": "Cite uma linguagem de programação.",
+    "categoria": "tecnologia",
+    "respostas": [
+      {
+        "r": "Python",
+        "p": 1
+      },
+      {
+        "r": "JavaScript",
+        "p": 1,
+        "alias": [
+          "js"
+        ]
+      },
+      {
+        "r": "Java",
+        "p": 2
+      },
+      {
+        "r": "C",
+        "p": 2
+      },
+      {
+        "r": "C++",
+        "p": 3,
+        "alias": [
+          "cpp"
+        ]
+      },
+      {
+        "r": "C#",
+        "p": 3,
+        "alias": [
+          "c sharp",
+          "csharp"
+        ]
+      },
+      {
+        "r": "PHP",
+        "p": 4
+      },
+      {
+        "r": "TypeScript",
+        "p": 4,
+        "alias": [
+          "ts"
+        ]
+      },
+      {
+        "r": "Ruby",
+        "p": 6
+      },
+      {
+        "r": "Go",
+        "p": 6,
+        "alias": [
+          "golang"
+        ]
+      },
+      {
+        "r": "Rust",
+        "p": 6
+      },
+      {
+        "r": "Kotlin",
+        "p": 6
+      },
+      {
+        "r": "Swift",
+        "p": 6
+      },
+      {
+        "r": "Lua",
+        "p": 7
+      },
+      {
+        "r": "R",
+        "p": 7
+      },
+      {
+        "r": "Assembly",
+        "p": 7,
+        "alias": [
+          "asm"
+        ]
+      },
+      {
+        "r": "MATLAB",
+        "p": 7
+      },
+      {
+        "r": "Visual Basic",
+        "p": 7,
+        "alias": [
+          "vb"
+        ]
+      },
+      {
+        "r": "Perl",
+        "p": 8
+      },
+      {
+        "r": "COBOL",
+        "p": 8
+      },
+      {
+        "r": "Pascal",
+        "p": 8
+      },
+      {
+        "r": "Dart",
+        "p": 8
+      },
+      {
+        "r": "Scala",
+        "p": 8
+      },
+      {
+        "r": "Delphi",
+        "p": 8
+      },
+      {
+        "r": "Haskell",
+        "p": 9
+      },
+      {
+        "r": "Fortran",
+        "p": 9
+      },
+      {
+        "r": "Elixir",
+        "p": 9
+      },
+      {
+        "r": "Erlang",
+        "p": 9
+      },
+      {
+        "r": "Lisp",
+        "p": 9
+      },
+      {
+        "r": "Julia",
+        "p": 9
+      },
+      {
+        "r": "Prolog",
+        "p": 10
+      },
+      {
+        "r": "Clojure",
+        "p": 10
+      },
+      {
+        "r": "Zig",
+        "p": 10
+      }
+    ],
+    "mensagens": {
+      "html": "Essa é de marcação/estilo, não de programação 😉",
+      "css": "Essa é de marcação/estilo, não de programação 😉"
+    }
+  },
+  {
+    "id": "sedes-copa-do-mundo",
+    "pergunta": "Cite um país que já sediou a Copa do Mundo masculina da FIFA.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Brasil",
+        "p": 1
+      },
+      {
+        "r": "Alemanha",
+        "p": 2
+      },
+      {
+        "r": "França",
+        "p": 2
+      },
+      {
+        "r": "Itália",
+        "p": 3
+      },
+      {
+        "r": "Estados Unidos",
+        "p": 3,
+        "alias": [
+          "eua"
+        ]
+      },
+      {
+        "r": "Rússia",
+        "p": 3
+      },
+      {
+        "r": "Catar",
+        "p": 3,
+        "alias": [
+          "qatar"
+        ]
+      },
+      {
+        "r": "África do Sul",
+        "p": 4
+      },
+      {
+        "r": "México",
+        "p": 4
+      },
+      {
+        "r": "Japão",
+        "p": 5
+      },
+      {
+        "r": "Argentina",
+        "p": 5
+      },
+      {
+        "r": "Espanha",
+        "p": 5
+      },
+      {
+        "r": "Inglaterra",
+        "p": 5
+      },
+      {
+        "r": "Coreia do Sul",
+        "p": 6
+      },
+      {
+        "r": "Uruguai",
+        "p": 6
+      },
+      {
+        "r": "Canadá",
+        "p": 6
+      },
+      {
+        "r": "Chile",
+        "p": 7
+      },
+      {
+        "r": "Suécia",
+        "p": 8
+      },
+      {
+        "r": "Suíça",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "biomas",
+    "pergunta": "Cite um bioma brasileiro.",
+    "categoria": "natureza",
+    "respostas": [
+      {
+        "r": "Amazônia",
+        "p": 1,
+        "alias": [
+          "floresta amazônica"
+        ]
+      },
+      {
+        "r": "Mata Atlântica",
+        "p": 2
+      },
+      {
+        "r": "Cerrado",
+        "p": 2
+      },
+      {
+        "r": "Caatinga",
+        "p": 3
+      },
+      {
+        "r": "Pantanal",
+        "p": 3
+      },
+      {
+        "r": "Pampa",
+        "p": 6
+      }
+    ]
+  },
+  {
+    "id": "oceanos",
+    "pergunta": "Cite um oceano.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Atlântico",
+        "p": 1
+      },
+      {
+        "r": "Pacífico",
+        "p": 1
+      },
+      {
+        "r": "Índico",
+        "p": 3
+      },
+      {
+        "r": "Ártico",
+        "p": 4,
+        "alias": [
+          "glacial ártico"
+        ]
+      },
+      {
+        "r": "Antártico",
+        "p": 7,
+        "alias": [
+          "austral",
+          "glacial antártico"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vizinhos-brasil",
+    "pergunta": "Cite um país que faz fronteira com o Brasil.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Argentina",
+        "p": 1
+      },
+      {
+        "r": "Paraguai",
+        "p": 1
+      },
+      {
+        "r": "Uruguai",
+        "p": 2
+      },
+      {
+        "r": "Bolívia",
+        "p": 2
+      },
+      {
+        "r": "Peru",
+        "p": 3
+      },
+      {
+        "r": "Colômbia",
+        "p": 4
+      },
+      {
+        "r": "Venezuela",
+        "p": 4
+      },
+      {
+        "r": "Guiana",
+        "p": 7
+      },
+      {
+        "r": "Suriname",
+        "p": 8
+      },
+      {
+        "r": "França",
+        "p": 9,
+        "alias": [
+          "guiana francesa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rios-brasileiros",
+    "pergunta": "Cite um rio brasileiro.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Amazonas",
+        "p": 1
+      },
+      {
+        "r": "São Francisco",
+        "p": 2,
+        "alias": [
+          "velho chico"
+        ]
+      },
+      {
+        "r": "Tietê",
+        "p": 2
+      },
+      {
+        "r": "Paraná",
+        "p": 3
+      },
+      {
+        "r": "Negro",
+        "p": 4,
+        "alias": [
+          "rio negro"
+        ]
+      },
+      {
+        "r": "Solimões",
+        "p": 5
+      },
+      {
+        "r": "Tocantins",
+        "p": 5
+      },
+      {
+        "r": "Xingu",
+        "p": 5
+      },
+      {
+        "r": "Araguaia",
+        "p": 5
+      },
+      {
+        "r": "Madeira",
+        "p": 5
+      },
+      {
+        "r": "Iguaçu",
+        "p": 5
+      },
+      {
+        "r": "Paraíba do Sul",
+        "p": 6
+      },
+      {
+        "r": "Tapajós",
+        "p": 6
+      },
+      {
+        "r": "Uruguai",
+        "p": 6
+      },
+      {
+        "r": "Paraguai",
+        "p": 6
+      },
+      {
+        "r": "Pinheiros",
+        "p": 6
+      },
+      {
+        "r": "Purus",
+        "p": 7
+      },
+      {
+        "r": "Grande",
+        "p": 7
+      },
+      {
+        "r": "Doce",
+        "p": 7
+      },
+      {
+        "r": "Juruá",
+        "p": 8
+      },
+      {
+        "r": "Paranaíba",
+        "p": 8
+      },
+      {
+        "r": "Jequitinhonha",
+        "p": 8
+      },
+      {
+        "r": "Parnaíba",
+        "p": 8
+      },
+      {
+        "r": "Capibaribe",
+        "p": 8
+      },
+      {
+        "r": "Branco",
+        "p": 8
+      },
+      {
+        "r": "Itajaí",
+        "p": 8,
+        "alias": [
+          "itajaí-açu"
+        ]
+      },
+      {
+        "r": "Piracicaba",
+        "p": 8
+      },
+      {
+        "r": "Japurá",
+        "p": 9
+      },
+      {
+        "r": "Trombetas",
+        "p": 9
+      },
+      {
+        "r": "Jari",
+        "p": 9
+      },
+      {
+        "r": "Teles Pires",
+        "p": 9
+      }
+    ],
+    "ignorarPrefixo": "rio"
+  },
+  {
+    "id": "frutas-com-m",
+    "pergunta": "Cite uma fruta que começa com a letra M.",
+    "categoria": "natureza",
+    "respostas": [
+      {
+        "r": "Maçã",
+        "p": 1
+      },
+      {
+        "r": "Manga",
+        "p": 1
+      },
+      {
+        "r": "Morango",
+        "p": 2
+      },
+      {
+        "r": "Melancia",
+        "p": 2
+      },
+      {
+        "r": "Mamão",
+        "p": 2
+      },
+      {
+        "r": "Melão",
+        "p": 3
+      },
+      {
+        "r": "Maracujá",
+        "p": 3
+      },
+      {
+        "r": "Mexerica",
+        "p": 5
+      },
+      {
+        "r": "Mirtilo",
+        "p": 6
+      },
+      {
+        "r": "Mandarina",
+        "p": 7
+      },
+      {
+        "r": "Marmelo",
+        "p": 7
+      },
+      {
+        "r": "Mangaba",
+        "p": 8
+      },
+      {
+        "r": "Mangostão",
+        "p": 9
+      },
+      {
+        "r": "Murici",
+        "p": 9
+      },
+      {
+        "r": "Macaúba",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "signos",
+    "pergunta": "Cite um signo do zodíaco.",
+    "categoria": "cultura",
+    "respostas": [
+      {
+        "r": "Leão",
+        "p": 2
+      },
+      {
+        "r": "Peixes",
+        "p": 2
+      },
+      {
+        "r": "Áries",
+        "p": 3
+      },
+      {
+        "r": "Touro",
+        "p": 3
+      },
+      {
+        "r": "Gêmeos",
+        "p": 3
+      },
+      {
+        "r": "Virgem",
+        "p": 3
+      },
+      {
+        "r": "Escorpião",
+        "p": 3
+      },
+      {
+        "r": "Câncer",
+        "p": 4
+      },
+      {
+        "r": "Libra",
+        "p": 4
+      },
+      {
+        "r": "Sagitário",
+        "p": 4
+      },
+      {
+        "r": "Capricórnio",
+        "p": 4
+      },
+      {
+        "r": "Aquário",
+        "p": 4
+      }
+    ]
+  },
+  {
+    "id": "sete-maravilhas",
+    "pergunta": "Cite uma das Novas Sete Maravilhas do Mundo (eleitas em 2007).",
+    "categoria": "cultura",
+    "respostas": [
+      {
+        "r": "Cristo Redentor",
+        "p": 1
+      },
+      {
+        "r": "Machu Picchu",
+        "p": 2
+      },
+      {
+        "r": "Coliseu",
+        "p": 2
+      },
+      {
+        "r": "Muralha da China",
+        "p": 2,
+        "alias": [
+          "grande muralha"
+        ]
+      },
+      {
+        "r": "Taj Mahal",
+        "p": 3
+      },
+      {
+        "r": "Chichén Itzá",
+        "p": 5
+      },
+      {
+        "r": "Petra",
+        "p": 6
+      }
+    ]
+  },
+  {
+    "id": "elementos-uma-letra",
+    "pergunta": "Cite um elemento químico cujo símbolo tem uma única letra.",
+    "categoria": "ciencia",
+    "respostas": [
+      {
+        "r": "Oxigênio",
+        "p": 1,
+        "alias": [
+          "o"
+        ]
+      },
+      {
+        "r": "Hidrogênio",
+        "p": 2,
+        "alias": [
+          "h"
+        ]
+      },
+      {
+        "r": "Carbono",
+        "p": 2,
+        "alias": [
+          "c"
+        ]
+      },
+      {
+        "r": "Nitrogênio",
+        "p": 3,
+        "alias": [
+          "n"
+        ]
+      },
+      {
+        "r": "Flúor",
+        "p": 4,
+        "alias": [
+          "f"
+        ]
+      },
+      {
+        "r": "Fósforo",
+        "p": 5,
+        "alias": [
+          "p"
+        ]
+      },
+      {
+        "r": "Potássio",
+        "p": 5,
+        "alias": [
+          "k"
+        ]
+      },
+      {
+        "r": "Enxofre",
+        "p": 6,
+        "alias": [
+          "s"
+        ]
+      },
+      {
+        "r": "Iodo",
+        "p": 6,
+        "alias": [
+          "i"
+        ]
+      },
+      {
+        "r": "Urânio",
+        "p": 6,
+        "alias": [
+          "u"
+        ]
+      },
+      {
+        "r": "Boro",
+        "p": 6,
+        "alias": [
+          "b"
+        ]
+      },
+      {
+        "r": "Tungstênio",
+        "p": 8,
+        "alias": [
+          "w",
+          "volfrâmio"
+        ]
+      },
+      {
+        "r": "Vanádio",
+        "p": 9,
+        "alias": [
+          "v"
+        ]
+      },
+      {
+        "r": "Ítrio",
+        "p": 10,
+        "alias": [
+          "y"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sedes-copa-2014",
+    "pergunta": "Cite uma cidade-sede da Copa do Mundo de 2014.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Rio de Janeiro",
+        "p": 1,
+        "alias": [
+          "rio"
+        ]
+      },
+      {
+        "r": "São Paulo",
+        "p": 1
+      },
+      {
+        "r": "Belo Horizonte",
+        "p": 3,
+        "alias": [
+          "bh"
+        ]
+      },
+      {
+        "r": "Brasília",
+        "p": 3
+      },
+      {
+        "r": "Salvador",
+        "p": 3
+      },
+      {
+        "r": "Porto Alegre",
+        "p": 4
+      },
+      {
+        "r": "Curitiba",
+        "p": 4
+      },
+      {
+        "r": "Recife",
+        "p": 5
+      },
+      {
+        "r": "Fortaleza",
+        "p": 5
+      },
+      {
+        "r": "Manaus",
+        "p": 6
+      },
+      {
+        "r": "Natal",
+        "p": 7
+      },
+      {
+        "r": "Cuiabá",
+        "p": 8
+      }
+    ]
+  }
+]
