@@ -79,18 +79,30 @@ export function numeroDoDia(data: string, lancamento = DATA_LANCAMENTO): number 
   return diasEntre(lancamento, data) + 1;
 }
 
+/** A pergunta pode cair no Diário nesta data? (respeita `desde` e `ate`) */
+export function disponivelEm(pergunta: Pergunta, data: string): boolean {
+  if (pergunta.desde && data < pergunta.desde) return false;
+  if (pergunta.ate && data > pergunta.ate) return false;
+  return true;
+}
+
 function sorteioSimples(banco: readonly Pergunta[], data: string, n: number): Pergunta[] {
-  return embaralhar(banco, mulberry32(hashString(data))).slice(0, n);
+  const disponiveis = banco.filter((q) => disponivelEm(q, data));
+  return embaralhar(disponiveis, mulberry32(hashString(data))).slice(0, n);
 }
 
 /**
  * As n perguntas do Diário de uma data. Todo mundo recebe as mesmas.
  *
- * Cada dia embaralha o banco com uma semente tirada da data. Para não repetir
- * perguntas dos últimos DIAS_SEM_REPETIR dias, o sorteio é refeito em ordem
- * desde o lançamento: primeiro entram as perguntas "descansadas", e só se
- * faltar entram as usadas há mais tempo. Datas antes do lançamento usam só o
- * embaralhamento do dia.
+ * Cada dia embaralha as perguntas disponíveis com uma semente tirada da data.
+ * Para não repetir perguntas dos últimos DIAS_SEM_REPETIR dias, o sorteio é
+ * refeito em ordem desde o lançamento: primeiro entram as perguntas
+ * "descansadas", e só se faltar entram as usadas há mais tempo. Datas antes do
+ * lançamento usam só o embaralhamento do dia.
+ *
+ * Como cada dia só enxerga as perguntas disponíveis naquela data, acrescentar
+ * perguntas com `desde` no futuro (ou aposentar com `ate`) não muda nenhum
+ * Diário anterior.
  */
 export function perguntasDoDia(
   banco: readonly Pergunta[],
@@ -125,11 +137,15 @@ export function perguntasDoDia(
   return escolhidas;
 }
 
-/** n perguntas aleatórias para o modo Ilimitado. */
+/** n perguntas aleatórias para o modo Ilimitado (só as já disponíveis hoje). */
 export function perguntasAleatorias(
   banco: readonly Pergunta[],
   n = 7,
   aleatorio: () => number = Math.random,
+  hoje: string = dataHojeBrasilia(),
 ): Pergunta[] {
-  return embaralhar(banco, aleatorio).slice(0, n);
+  return embaralhar(
+    banco.filter((q) => disponivelEm(q, hoje)),
+    aleatorio,
+  ).slice(0, n);
 }

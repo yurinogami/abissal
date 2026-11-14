@@ -19,4 +19,12 @@ export type Pergunta = {
   ignorarPrefixo?: string;
   /** Falas especiais do Lume para tentativas erradas conhecidas (chave = texto da tentativa). */
   mensagens?: Record<string, string>;
+  /**
+   * Primeiro dia (AAAA-MM-DD) em que a pergunta pode cair no Diário. Perguntas
+   * novas depois do lançamento precisam de uma data futura, para não mudar os
+   * Diários que já aconteceram nem o de hoje.
+   */
+  desde?: string;
+  /** Último dia em que a pergunta pode cair no Diário (use em vez de apagar). */
+  ate?: string;
 };
