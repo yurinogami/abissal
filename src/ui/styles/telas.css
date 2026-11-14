@@ -1,0 +1,366 @@
+.tela {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.acoes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: stretch;
+  text-align: center;
+}
+
+/* Início */
+.marca {
+  text-align: center;
+  padding-top: 24px;
+}
+
+.logo {
+  font-size: 3rem;
+  letter-spacing: 0.02em;
+}
+
+.slogan {
+  color: var(--texto-suave);
+  margin: 8px 0 0;
+}
+
+.resultado-dia {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+
+.resultado-dia p {
+  margin: 0;
+}
+
+/* Como jogar */
+.regras {
+  padding-left: 20px;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.exemplo ul {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+.exemplo-pergunta {
+  margin: 0;
+  font-weight: 700;
+}
+
+.dica {
+  color: var(--texto-suave);
+  margin: 0;
+}
+
+/* Jogo */
+.jogo-topo {
+  display: flex;
+  justify-content: space-between;
+  color: var(--texto-suave);
+  font-size: 0.9375rem;
+}
+
+.jogo-profundidade {
+  font-weight: 700;
+  color: var(--texto);
+  font-variant-numeric: tabular-nums;
+}
+
+.cronometro {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cronometro-barra {
+  flex: 1;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--cartao);
+  overflow: hidden;
+}
+
+.cronometro-preenchimento {
+  height: 100%;
+  background: var(--destaque);
+  transform-origin: left center;
+  transition: transform 0.1s linear;
+}
+
+.cronometro-numero {
+  min-width: 2ch;
+  text-align: right;
+  font-weight: 800;
+  font-size: 1.25rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.cronometro.alerta .cronometro-preenchimento {
+  background: var(--alerta);
+}
+
+.cronometro.alerta .cronometro-numero {
+  color: var(--alerta);
+}
+
+.pergunta-texto {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.pergunta-texto.pequena {
+  font-size: 1rem;
+  color: var(--texto-suave);
+  margin: 0;
+}
+
+.resposta-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.resposta-campo {
+  width: 100%;
+  min-height: 52px;
+  padding: 12px 16px;
+  border-radius: var(--raio);
+  border: 2px solid var(--borda);
+  background: rgba(0, 0, 0, 0.25);
+  color: var(--texto);
+  font: inherit;
+  font-size: 1.125rem;
+}
+
+.resposta-campo:focus-visible {
+  outline: none;
+  border-color: var(--destaque);
+}
+
+.resposta-campo.tremer {
+  border-color: var(--alerta);
+  animation: tremer 0.35s ease;
+}
+
+@keyframes tremer {
+  20%,
+  60% {
+    transform: translateX(-6px);
+  }
+  40%,
+  80% {
+    transform: translateX(6px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .resposta-campo.tremer {
+    animation: none;
+  }
+  .cronometro-preenchimento {
+    transition: none;
+  }
+}
+
+.resposta-botoes {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+}
+
+.aviso-esc {
+  margin: 0;
+  text-align: center;
+  color: var(--raro);
+}
+
+.tentativas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tentativas li {
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--borda);
+  color: var(--texto-suave);
+  overflow-wrap: anywhere;
+}
+
+.tentativas s {
+  text-decoration-color: var(--alerta);
+  text-decoration-thickness: 2px;
+}
+
+/* Revelação */
+.revelacao {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.revelacao-resposta {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.revelacao-pontos {
+  margin: 0;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.raridade-comum {
+  color: var(--destaque);
+}
+.raridade-media {
+  color: var(--medio);
+}
+.raridade-rara {
+  color: var(--raro);
+}
+.raridade-erro {
+  color: var(--alerta);
+}
+
+.raridade {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: var(--texto-suave);
+}
+
+.raridade-barra {
+  position: relative;
+  flex: 1;
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--destaque), var(--medio), var(--raro));
+}
+
+.raridade-marcador {
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--texto);
+  border: 3px solid var(--fundo);
+  transform: translate(-50%, -50%);
+}
+
+.raras {
+  text-align: left;
+}
+
+.raras ul,
+.resumo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.raras li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.raras-pontos {
+  color: var(--raro);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* Fim */
+.fim-total {
+  text-align: center;
+}
+
+.fim-total p {
+  margin: 0;
+}
+
+.fim-zona span {
+  color: var(--texto-suave);
+}
+
+.fim-titulo {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--raro);
+}
+
+.resumo-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 12px;
+  padding: 10px 12px;
+  border-radius: var(--raio);
+  background: var(--cartao);
+}
+
+.resumo-pergunta {
+  grid-column: 1 / -1;
+  color: var(--texto-suave);
+  font-size: 0.875rem;
+}
+
+.resumo-resposta {
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.resumo-pontos {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* Lume (provisório; o desenho em SVG chega na Fase 3) */
+.lume {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.lume-avatar {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.lume-fala {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: var(--raio) var(--raio) var(--raio) 4px;
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+}
+
+.lume[data-humor="uau"] .lume-fala {
+  border-color: var(--raro);
+}
+
+.lume[data-humor="triste"] .lume-fala {
+  border-color: var(--alerta);
+}

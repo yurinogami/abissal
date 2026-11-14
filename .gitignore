@@ -4,3 +4,12 @@ dist/
 .DS_Store
 coverage/
 *.log
+
+# Documentos internos (ficam só no computador, nunca no GitHub)
+PLANO_ABISSAL.md
+INSTRUCOES_GITHUB.md
+PROGRESSO.md
+*.local.md
+
+# Configurações locais do Claude Code
+.claude/
