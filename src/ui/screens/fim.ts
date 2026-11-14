@@ -2,7 +2,7 @@ import { type Partida, profundidadeDaPartida } from "../../game/engine";
 import { pontosParaMetros, raridade, zonaDaProfundidade } from "../../game/scoring";
 import type { Pergunta } from "../../game/tipos";
 import { criarLume, FALAS } from "../components/lume";
-import { definirTitulo, esc, metros } from "../dom";
+import { definirTitulo, esc, metros, pts } from "../dom";
 import { navegar } from "../router";
 
 /** Tela de fim de partida (seção 5.5). */
@@ -19,7 +19,7 @@ export function renderizarFim(raiz: HTMLElement, partida: Partida, perguntas: Pe
         <li class="resumo-item raridade-${raridade(p)}">
           <span class="resumo-pergunta">${esc(perguntas[i].pergunta)}</span>
           <span class="resumo-resposta">${resposta}</span>
-          <span class="resumo-pontos">${p} pts · ${esc(metros(pontosParaMetros(p)))}</span>
+          <span class="resumo-pontos">${pts(p)} ·${esc(metros(pontosParaMetros(p)))}</span>
         </li>`;
     })
     .join("");

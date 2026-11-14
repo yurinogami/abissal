@@ -1,7 +1,7 @@
 import type { EstadoPergunta } from "../../game/engine";
 import { maisRaras, pontosParaMetros, raridade } from "../../game/scoring";
 import type { Pergunta } from "../../game/tipos";
-import { esc, metros } from "../dom";
+import { esc, metros, pts } from "../dom";
 
 /** HTML da revelação mostrada entre uma pergunta e outra (seção 5.4). */
 export function htmlRevelacao(pergunta: Pergunta, estado: EstadoPergunta, ultima: boolean): string {
@@ -26,7 +26,7 @@ export function htmlRevelacao(pergunta: Pergunta, estado: EstadoPergunta, ultima
   }
 
   const raras = maisRaras(pergunta, 3)
-    .map((r) => `<li><span>${esc(r.r)}</span><span class="raras-pontos">${r.p} pts · ${esc(metros(pontosParaMetros(r.p)))}</span></li>`)
+    .map((r) => `<li><span>${esc(r.r)}</span><span class="raras-pontos">${pts(r.p)} ·${esc(metros(pontosParaMetros(r.p)))}</span></li>`)
     .join("");
 
   return `

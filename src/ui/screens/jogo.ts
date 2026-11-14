@@ -226,8 +226,8 @@ export function telaJogo(modo: Modo): Tela {
       // Enter avança mesmo se o foco saiu do botão.
       const aoTeclar = (ev: KeyboardEvent) => {
         if (ev.key !== "Enter" || ev.repeat) return;
-        const alvo = ev.target as HTMLElement | null;
-        if (alvo?.closest("button, a, input, textarea")) return;
+        const alvo = ev.target;
+        if (alvo instanceof Element && alvo.closest("button, a, input, textarea")) return;
         ev.preventDefault();
         proxima();
       };
