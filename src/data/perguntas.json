@@ -1864,5 +1864,1913 @@
         "p": 8
       }
     ]
+  },
+  {
+    "id": "capitais-brasileiras",
+    "pergunta": "Cite a capital de um estado brasileiro ou do Distrito Federal.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "São Paulo",
+        "p": 1,
+        "alias": [
+          "sampa"
+        ]
+      },
+      {
+        "r": "Rio de Janeiro",
+        "p": 1
+      },
+      {
+        "r": "Brasília",
+        "p": 1
+      },
+      {
+        "r": "Salvador",
+        "p": 2
+      },
+      {
+        "r": "Belo Horizonte",
+        "p": 2,
+        "alias": [
+          "bh"
+        ]
+      },
+      {
+        "r": "Recife",
+        "p": 2
+      },
+      {
+        "r": "Fortaleza",
+        "p": 2
+      },
+      {
+        "r": "Curitiba",
+        "p": 2
+      },
+      {
+        "r": "Porto Alegre",
+        "p": 2,
+        "alias": [
+          "poa"
+        ]
+      },
+      {
+        "r": "Manaus",
+        "p": 3
+      },
+      {
+        "r": "Belém",
+        "p": 3
+      },
+      {
+        "r": "Florianópolis",
+        "p": 3,
+        "alias": [
+          "floripa"
+        ]
+      },
+      {
+        "r": "Goiânia",
+        "p": 4
+      },
+      {
+        "r": "Natal",
+        "p": 4
+      },
+      {
+        "r": "Vitória",
+        "p": 5
+      },
+      {
+        "r": "João Pessoa",
+        "p": 5
+      },
+      {
+        "r": "Maceió",
+        "p": 5
+      },
+      {
+        "r": "São Luís",
+        "p": 5
+      },
+      {
+        "r": "Cuiabá",
+        "p": 6
+      },
+      {
+        "r": "Campo Grande",
+        "p": 6
+      },
+      {
+        "r": "Teresina",
+        "p": 6
+      },
+      {
+        "r": "Aracaju",
+        "p": 6
+      },
+      {
+        "r": "Porto Velho",
+        "p": 7
+      },
+      {
+        "r": "Rio Branco",
+        "p": 7
+      },
+      {
+        "r": "Macapá",
+        "p": 8
+      },
+      {
+        "r": "Boa Vista",
+        "p": 8
+      },
+      {
+        "r": "Palmas",
+        "p": 8
+      }
+    ]
+  },
+  {
+    "id": "capitais-nordeste",
+    "pergunta": "Cite a capital de um estado do Nordeste.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Salvador",
+        "p": 1
+      },
+      {
+        "r": "Recife",
+        "p": 1
+      },
+      {
+        "r": "Fortaleza",
+        "p": 1
+      },
+      {
+        "r": "Natal",
+        "p": 3
+      },
+      {
+        "r": "São Luís",
+        "p": 4
+      },
+      {
+        "r": "João Pessoa",
+        "p": 4
+      },
+      {
+        "r": "Maceió",
+        "p": 4
+      },
+      {
+        "r": "Teresina",
+        "p": 6
+      },
+      {
+        "r": "Aracaju",
+        "p": 6
+      }
+    ]
+  },
+  {
+    "id": "regioes-brasil",
+    "pergunta": "Cite uma das cinco regiões do Brasil.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Sudeste",
+        "p": 1
+      },
+      {
+        "r": "Nordeste",
+        "p": 1
+      },
+      {
+        "r": "Sul",
+        "p": 2
+      },
+      {
+        "r": "Norte",
+        "p": 2
+      },
+      {
+        "r": "Centro-Oeste",
+        "p": 4
+      }
+    ]
+  },
+  {
+    "id": "estados-nordeste",
+    "pergunta": "Cite um estado da região Nordeste.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Bahia",
+        "p": 1,
+        "alias": [
+          "ba"
+        ]
+      },
+      {
+        "r": "Pernambuco",
+        "p": 1,
+        "alias": [
+          "pe"
+        ]
+      },
+      {
+        "r": "Ceará",
+        "p": 2,
+        "alias": [
+          "ce"
+        ]
+      },
+      {
+        "r": "Paraíba",
+        "p": 3,
+        "alias": [
+          "pb"
+        ]
+      },
+      {
+        "r": "Maranhão",
+        "p": 4,
+        "alias": [
+          "ma"
+        ]
+      },
+      {
+        "r": "Rio Grande do Norte",
+        "p": 4,
+        "alias": [
+          "rn"
+        ]
+      },
+      {
+        "r": "Alagoas",
+        "p": 5,
+        "alias": [
+          "al"
+        ]
+      },
+      {
+        "r": "Piauí",
+        "p": 6,
+        "alias": [
+          "pi"
+        ]
+      },
+      {
+        "r": "Sergipe",
+        "p": 7,
+        "alias": [
+          "se"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "estados-norte",
+    "pergunta": "Cite um estado da região Norte.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Amazonas",
+        "p": 1,
+        "alias": [
+          "am"
+        ]
+      },
+      {
+        "r": "Pará",
+        "p": 2,
+        "alias": [
+          "pa"
+        ]
+      },
+      {
+        "r": "Acre",
+        "p": 4,
+        "alias": [
+          "ac"
+        ]
+      },
+      {
+        "r": "Rondônia",
+        "p": 5,
+        "alias": [
+          "ro"
+        ]
+      },
+      {
+        "r": "Roraima",
+        "p": 6,
+        "alias": [
+          "rr"
+        ]
+      },
+      {
+        "r": "Amapá",
+        "p": 6,
+        "alias": [
+          "ap"
+        ]
+      },
+      {
+        "r": "Tocantins",
+        "p": 8,
+        "alias": [
+          "to"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "estados-litoral",
+    "pergunta": "Cite um estado brasileiro banhado pelo mar.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Rio de Janeiro",
+        "p": 1,
+        "alias": [
+          "rj"
+        ]
+      },
+      {
+        "r": "São Paulo",
+        "p": 1,
+        "alias": [
+          "sp"
+        ]
+      },
+      {
+        "r": "Bahia",
+        "p": 1,
+        "alias": [
+          "ba"
+        ]
+      },
+      {
+        "r": "Santa Catarina",
+        "p": 2,
+        "alias": [
+          "sc"
+        ]
+      },
+      {
+        "r": "Ceará",
+        "p": 2,
+        "alias": [
+          "ce"
+        ]
+      },
+      {
+        "r": "Pernambuco",
+        "p": 2,
+        "alias": [
+          "pe"
+        ]
+      },
+      {
+        "r": "Rio Grande do Sul",
+        "p": 3,
+        "alias": [
+          "rs"
+        ]
+      },
+      {
+        "r": "Espírito Santo",
+        "p": 4,
+        "alias": [
+          "es"
+        ]
+      },
+      {
+        "r": "Rio Grande do Norte",
+        "p": 4,
+        "alias": [
+          "rn"
+        ]
+      },
+      {
+        "r": "Paraíba",
+        "p": 4,
+        "alias": [
+          "pb"
+        ]
+      },
+      {
+        "r": "Alagoas",
+        "p": 5,
+        "alias": [
+          "al"
+        ]
+      },
+      {
+        "r": "Paraná",
+        "p": 5,
+        "alias": [
+          "pr"
+        ]
+      },
+      {
+        "r": "Sergipe",
+        "p": 6,
+        "alias": [
+          "se"
+        ]
+      },
+      {
+        "r": "Maranhão",
+        "p": 6,
+        "alias": [
+          "ma"
+        ]
+      },
+      {
+        "r": "Piauí",
+        "p": 7,
+        "alias": [
+          "pi"
+        ]
+      },
+      {
+        "r": "Pará",
+        "p": 7,
+        "alias": [
+          "pa"
+        ]
+      },
+      {
+        "r": "Amapá",
+        "p": 8,
+        "alias": [
+          "ap"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "estados-fronteira",
+    "pergunta": "Cite um estado brasileiro que faz fronteira com outro país.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Rio Grande do Sul",
+        "p": 2,
+        "alias": [
+          "rs"
+        ]
+      },
+      {
+        "r": "Amazonas",
+        "p": 2,
+        "alias": [
+          "am"
+        ]
+      },
+      {
+        "r": "Paraná",
+        "p": 3,
+        "alias": [
+          "pr"
+        ]
+      },
+      {
+        "r": "Acre",
+        "p": 4,
+        "alias": [
+          "ac"
+        ]
+      },
+      {
+        "r": "Mato Grosso do Sul",
+        "p": 4,
+        "alias": [
+          "ms"
+        ]
+      },
+      {
+        "r": "Santa Catarina",
+        "p": 5,
+        "alias": [
+          "sc"
+        ]
+      },
+      {
+        "r": "Roraima",
+        "p": 5,
+        "alias": [
+          "rr"
+        ]
+      },
+      {
+        "r": "Mato Grosso",
+        "p": 6,
+        "alias": [
+          "mt"
+        ]
+      },
+      {
+        "r": "Rondônia",
+        "p": 6,
+        "alias": [
+          "ro"
+        ]
+      },
+      {
+        "r": "Pará",
+        "p": 8,
+        "alias": [
+          "pa"
+        ]
+      },
+      {
+        "r": "Amapá",
+        "p": 8,
+        "alias": [
+          "ap"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ilhas-oceanicas",
+    "pergunta": "Cite uma ilha ou arquipélago oceânico do Brasil.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Fernando de Noronha",
+        "p": 1,
+        "alias": [
+          "noronha"
+        ]
+      },
+      {
+        "r": "Atol das Rocas",
+        "p": 6,
+        "alias": [
+          "rocas"
+        ]
+      },
+      {
+        "r": "Trindade e Martim Vaz",
+        "p": 7,
+        "alias": [
+          "trindade",
+          "ilha da trindade",
+          "martim vaz"
+        ]
+      },
+      {
+        "r": "São Pedro e São Paulo",
+        "p": 8,
+        "alias": [
+          "arquipelago de sao pedro e sao paulo"
+        ]
+      }
+    ],
+    "mensagens": {
+      "ilhabela": "Essa é uma ilha costeira, não oceânica.",
+      "florianopolis": "Essa é uma ilha costeira, não oceânica.",
+      "ilha do mel": "Essa é uma ilha costeira, não oceânica."
+    }
+  },
+  {
+    "id": "continentes",
+    "pergunta": "Cite um continente.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "América",
+        "p": 1,
+        "alias": [
+          "america do sul",
+          "america do norte",
+          "americas"
+        ]
+      },
+      {
+        "r": "Europa",
+        "p": 1
+      },
+      {
+        "r": "África",
+        "p": 1
+      },
+      {
+        "r": "Ásia",
+        "p": 2
+      },
+      {
+        "r": "Oceania",
+        "p": 4
+      },
+      {
+        "r": "Antártida",
+        "p": 5,
+        "alias": [
+          "antartica"
+        ]
+      }
+    ],
+    "mensagens": {
+      "australia": "A Austrália é um país; o continente é a Oceania.",
+      "africa do sul": "A África do Sul é um país; o continente é a África."
+    }
+  },
+  {
+    "id": "g7",
+    "pergunta": "Cite um país do G7.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Estados Unidos",
+        "p": 1,
+        "alias": [
+          "eua",
+          "usa"
+        ]
+      },
+      {
+        "r": "Japão",
+        "p": 2
+      },
+      {
+        "r": "Alemanha",
+        "p": 2
+      },
+      {
+        "r": "França",
+        "p": 2
+      },
+      {
+        "r": "Reino Unido",
+        "p": 3,
+        "alias": [
+          "inglaterra",
+          "gra bretanha"
+        ]
+      },
+      {
+        "r": "Itália",
+        "p": 3
+      },
+      {
+        "r": "Canadá",
+        "p": 4
+      }
+    ],
+    "mensagens": {
+      "china": "A China não faz parte do G7.",
+      "russia": "A Rússia saiu do grupo em 2014 (era G8)."
+    }
+  },
+  {
+    "id": "lingua-portuguesa",
+    "pergunta": "Cite um país que tem o português como língua oficial.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Brasil",
+        "p": 1
+      },
+      {
+        "r": "Portugal",
+        "p": 1
+      },
+      {
+        "r": "Angola",
+        "p": 2
+      },
+      {
+        "r": "Moçambique",
+        "p": 3
+      },
+      {
+        "r": "Cabo Verde",
+        "p": 4
+      },
+      {
+        "r": "Guiné-Bissau",
+        "p": 5
+      },
+      {
+        "r": "São Tomé e Príncipe",
+        "p": 6
+      },
+      {
+        "r": "Timor-Leste",
+        "p": 7,
+        "alias": [
+          "timor"
+        ]
+      },
+      {
+        "r": "Guiné Equatorial",
+        "p": 9
+      }
+    ],
+    "mensagens": {
+      "macau": "Macau fala português, mas não é um país."
+    }
+  },
+  {
+    "id": "lingua-espanhola",
+    "pergunta": "Cite um país que tem o espanhol como língua oficial.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "México",
+        "p": 1
+      },
+      {
+        "r": "Argentina",
+        "p": 1
+      },
+      {
+        "r": "Espanha",
+        "p": 1
+      },
+      {
+        "r": "Colômbia",
+        "p": 2
+      },
+      {
+        "r": "Chile",
+        "p": 2
+      },
+      {
+        "r": "Peru",
+        "p": 2
+      },
+      {
+        "r": "Uruguai",
+        "p": 2
+      },
+      {
+        "r": "Paraguai",
+        "p": 2
+      },
+      {
+        "r": "Venezuela",
+        "p": 3
+      },
+      {
+        "r": "Bolívia",
+        "p": 3
+      },
+      {
+        "r": "Equador",
+        "p": 4
+      },
+      {
+        "r": "Cuba",
+        "p": 4
+      },
+      {
+        "r": "Costa Rica",
+        "p": 5
+      },
+      {
+        "r": "Panamá",
+        "p": 5
+      },
+      {
+        "r": "Guatemala",
+        "p": 5
+      },
+      {
+        "r": "Honduras",
+        "p": 6
+      },
+      {
+        "r": "El Salvador",
+        "p": 6
+      },
+      {
+        "r": "Nicarágua",
+        "p": 6
+      },
+      {
+        "r": "República Dominicana",
+        "p": 6
+      },
+      {
+        "r": "Guiné Equatorial",
+        "p": 10
+      }
+    ],
+    "mensagens": {
+      "porto rico": "Porto Rico fala espanhol, mas não é um país independente."
+    }
+  },
+  {
+    "id": "capitais-america-do-sul",
+    "pergunta": "Cite a capital de um país da América do Sul.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Buenos Aires",
+        "p": 1
+      },
+      {
+        "r": "Brasília",
+        "p": 1
+      },
+      {
+        "r": "Santiago",
+        "p": 2
+      },
+      {
+        "r": "Montevidéu",
+        "p": 2
+      },
+      {
+        "r": "Lima",
+        "p": 3
+      },
+      {
+        "r": "Bogotá",
+        "p": 3
+      },
+      {
+        "r": "Assunção",
+        "p": 4
+      },
+      {
+        "r": "Caracas",
+        "p": 4
+      },
+      {
+        "r": "Quito",
+        "p": 5
+      },
+      {
+        "r": "La Paz",
+        "p": 5
+      },
+      {
+        "r": "Sucre",
+        "p": 8
+      },
+      {
+        "r": "Georgetown",
+        "p": 9
+      },
+      {
+        "r": "Paramaribo",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "america-central",
+    "pergunta": "Cite um país da América Central continental.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Panamá",
+        "p": 2
+      },
+      {
+        "r": "Costa Rica",
+        "p": 2
+      },
+      {
+        "r": "Guatemala",
+        "p": 3
+      },
+      {
+        "r": "Honduras",
+        "p": 4
+      },
+      {
+        "r": "Nicarágua",
+        "p": 4
+      },
+      {
+        "r": "El Salvador",
+        "p": 4
+      },
+      {
+        "r": "Belize",
+        "p": 8
+      }
+    ],
+    "mensagens": {
+      "mexico": "O México fica na América do Norte.",
+      "cuba": "Cuba é uma ilha do Caribe, não da parte continental."
+    }
+  },
+  {
+    "id": "maiores-paises",
+    "pergunta": "Cite um dos 10 maiores países do mundo em área.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Rússia",
+        "p": 1
+      },
+      {
+        "r": "Brasil",
+        "p": 1
+      },
+      {
+        "r": "China",
+        "p": 2
+      },
+      {
+        "r": "Estados Unidos",
+        "p": 2,
+        "alias": [
+          "eua",
+          "usa"
+        ]
+      },
+      {
+        "r": "Canadá",
+        "p": 3
+      },
+      {
+        "r": "Austrália",
+        "p": 4
+      },
+      {
+        "r": "Índia",
+        "p": 4
+      },
+      {
+        "r": "Argentina",
+        "p": 6
+      },
+      {
+        "r": "Cazaquistão",
+        "p": 9
+      },
+      {
+        "r": "Argélia",
+        "p": 9
+      }
+    ],
+    "mensagens": {
+      "austria": "A Áustria é bem pequena! Você quis dizer Austrália?"
+    }
+  },
+  {
+    "id": "mediterraneo",
+    "pergunta": "Cite um país banhado pelo Mar Mediterrâneo.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Itália",
+        "p": 1
+      },
+      {
+        "r": "Espanha",
+        "p": 1
+      },
+      {
+        "r": "França",
+        "p": 2
+      },
+      {
+        "r": "Grécia",
+        "p": 2
+      },
+      {
+        "r": "Egito",
+        "p": 3
+      },
+      {
+        "r": "Turquia",
+        "p": 4
+      },
+      {
+        "r": "Marrocos",
+        "p": 5
+      },
+      {
+        "r": "Croácia",
+        "p": 5
+      },
+      {
+        "r": "Israel",
+        "p": 5
+      },
+      {
+        "r": "Malta",
+        "p": 6
+      },
+      {
+        "r": "Chipre",
+        "p": 6
+      },
+      {
+        "r": "Líbano",
+        "p": 6
+      },
+      {
+        "r": "Tunísia",
+        "p": 7
+      },
+      {
+        "r": "Líbia",
+        "p": 7
+      },
+      {
+        "r": "Argélia",
+        "p": 7
+      },
+      {
+        "r": "Albânia",
+        "p": 7
+      },
+      {
+        "r": "Mônaco",
+        "p": 7
+      },
+      {
+        "r": "Síria",
+        "p": 8
+      },
+      {
+        "r": "Montenegro",
+        "p": 8
+      },
+      {
+        "r": "Palestina",
+        "p": 9
+      },
+      {
+        "r": "Eslovênia",
+        "p": 9
+      },
+      {
+        "r": "Bósnia e Herzegovina",
+        "p": 10,
+        "alias": [
+          "bosnia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reino-unido",
+    "pergunta": "Cite um dos países que formam o Reino Unido.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Inglaterra",
+        "p": 1
+      },
+      {
+        "r": "Escócia",
+        "p": 2
+      },
+      {
+        "r": "País de Gales",
+        "p": 3,
+        "alias": [
+          "gales"
+        ]
+      },
+      {
+        "r": "Irlanda do Norte",
+        "p": 4
+      }
+    ],
+    "mensagens": {
+      "irlanda": "A Irlanda é outro país; quem faz parte do Reino Unido é a Irlanda do Norte."
+    }
+  },
+  {
+    "id": "paises-europa",
+    "pergunta": "Cite um país da Europa.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Portugal",
+        "p": 1
+      },
+      {
+        "r": "Espanha",
+        "p": 1
+      },
+      {
+        "r": "França",
+        "p": 1
+      },
+      {
+        "r": "Itália",
+        "p": 1
+      },
+      {
+        "r": "Alemanha",
+        "p": 1
+      },
+      {
+        "r": "Reino Unido",
+        "p": 2,
+        "alias": [
+          "inglaterra",
+          "escocia",
+          "pais de gales",
+          "gra bretanha"
+        ]
+      },
+      {
+        "r": "Rússia",
+        "p": 2
+      },
+      {
+        "r": "Países Baixos",
+        "p": 3,
+        "alias": [
+          "holanda"
+        ]
+      },
+      {
+        "r": "Bélgica",
+        "p": 3
+      },
+      {
+        "r": "Suíça",
+        "p": 3
+      },
+      {
+        "r": "Grécia",
+        "p": 3
+      },
+      {
+        "r": "Suécia",
+        "p": 4
+      },
+      {
+        "r": "Noruega",
+        "p": 4
+      },
+      {
+        "r": "Irlanda",
+        "p": 4
+      },
+      {
+        "r": "Polônia",
+        "p": 4
+      },
+      {
+        "r": "Áustria",
+        "p": 4
+      },
+      {
+        "r": "Dinamarca",
+        "p": 4
+      },
+      {
+        "r": "Ucrânia",
+        "p": 4
+      },
+      {
+        "r": "Finlândia",
+        "p": 5
+      },
+      {
+        "r": "Croácia",
+        "p": 5
+      },
+      {
+        "r": "Turquia",
+        "p": 5
+      },
+      {
+        "r": "Islândia",
+        "p": 5
+      },
+      {
+        "r": "Hungria",
+        "p": 5
+      },
+      {
+        "r": "República Tcheca",
+        "p": 5,
+        "alias": [
+          "tchequia"
+        ]
+      },
+      {
+        "r": "Romênia",
+        "p": 6
+      },
+      {
+        "r": "Sérvia",
+        "p": 6
+      },
+      {
+        "r": "Bulgária",
+        "p": 6
+      },
+      {
+        "r": "Mônaco",
+        "p": 6
+      },
+      {
+        "r": "Vaticano",
+        "p": 6
+      },
+      {
+        "r": "Luxemburgo",
+        "p": 6
+      },
+      {
+        "r": "Eslováquia",
+        "p": 7
+      },
+      {
+        "r": "Eslovênia",
+        "p": 7
+      },
+      {
+        "r": "Bielorrússia",
+        "p": 7,
+        "alias": [
+          "belarus"
+        ]
+      },
+      {
+        "r": "Estônia",
+        "p": 7
+      },
+      {
+        "r": "Letônia",
+        "p": 7
+      },
+      {
+        "r": "Lituânia",
+        "p": 7
+      },
+      {
+        "r": "Albânia",
+        "p": 7
+      },
+      {
+        "r": "Bósnia e Herzegovina",
+        "p": 7,
+        "alias": [
+          "bosnia"
+        ]
+      },
+      {
+        "r": "Montenegro",
+        "p": 7
+      },
+      {
+        "r": "Malta",
+        "p": 7
+      },
+      {
+        "r": "Chipre",
+        "p": 7
+      },
+      {
+        "r": "Andorra",
+        "p": 7
+      },
+      {
+        "r": "San Marino",
+        "p": 7
+      },
+      {
+        "r": "Liechtenstein",
+        "p": 8
+      },
+      {
+        "r": "Moldávia",
+        "p": 8
+      },
+      {
+        "r": "Macedônia do Norte",
+        "p": 8,
+        "alias": [
+          "macedonia"
+        ]
+      },
+      {
+        "r": "Kosovo",
+        "p": 8
+      },
+      {
+        "r": "Geórgia",
+        "p": 9
+      },
+      {
+        "r": "Armênia",
+        "p": 9
+      },
+      {
+        "r": "Azerbaijão",
+        "p": 9
+      },
+      {
+        "r": "Cazaquistão",
+        "p": 9
+      }
+    ]
+  },
+  {
+    "id": "paises-africa",
+    "pergunta": "Cite um país da África.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "Egito",
+        "p": 1
+      },
+      {
+        "r": "África do Sul",
+        "p": 1
+      },
+      {
+        "r": "Angola",
+        "p": 2
+      },
+      {
+        "r": "Nigéria",
+        "p": 2
+      },
+      {
+        "r": "Marrocos",
+        "p": 2
+      },
+      {
+        "r": "Moçambique",
+        "p": 3
+      },
+      {
+        "r": "Camarões",
+        "p": 3
+      },
+      {
+        "r": "Senegal",
+        "p": 3
+      },
+      {
+        "r": "Gana",
+        "p": 3
+      },
+      {
+        "r": "Quênia",
+        "p": 3
+      },
+      {
+        "r": "Etiópia",
+        "p": 3
+      },
+      {
+        "r": "Argélia",
+        "p": 4
+      },
+      {
+        "r": "Tunísia",
+        "p": 4
+      },
+      {
+        "r": "Costa do Marfim",
+        "p": 4
+      },
+      {
+        "r": "Cabo Verde",
+        "p": 4
+      },
+      {
+        "r": "Madagascar",
+        "p": 4
+      },
+      {
+        "r": "Líbia",
+        "p": 4
+      },
+      {
+        "r": "Somália",
+        "p": 5
+      },
+      {
+        "r": "Sudão",
+        "p": 5
+      },
+      {
+        "r": "República Democrática do Congo",
+        "p": 5,
+        "alias": [
+          "rdc",
+          "congo kinshasa"
+        ]
+      },
+      {
+        "r": "Guiné-Bissau",
+        "p": 5
+      },
+      {
+        "r": "Tanzânia",
+        "p": 5
+      },
+      {
+        "r": "Uganda",
+        "p": 5
+      },
+      {
+        "r": "Zimbábue",
+        "p": 5
+      },
+      {
+        "r": "Ruanda",
+        "p": 5
+      },
+      {
+        "r": "República do Congo",
+        "p": 6,
+        "alias": [
+          "congo brazzaville"
+        ]
+      },
+      {
+        "r": "Namíbia",
+        "p": 6
+      },
+      {
+        "r": "Zâmbia",
+        "p": 6
+      },
+      {
+        "r": "Mali",
+        "p": 6
+      },
+      {
+        "r": "Níger",
+        "p": 6
+      },
+      {
+        "r": "Sudão do Sul",
+        "p": 6
+      },
+      {
+        "r": "Libéria",
+        "p": 6
+      },
+      {
+        "r": "Serra Leoa",
+        "p": 6
+      },
+      {
+        "r": "Guiné",
+        "p": 6
+      },
+      {
+        "r": "São Tomé e Príncipe",
+        "p": 6
+      },
+      {
+        "r": "Guiné Equatorial",
+        "p": 7
+      },
+      {
+        "r": "Botsuana",
+        "p": 7
+      },
+      {
+        "r": "Gabão",
+        "p": 7
+      },
+      {
+        "r": "Chade",
+        "p": 7
+      },
+      {
+        "r": "Burkina Faso",
+        "p": 7
+      },
+      {
+        "r": "Mauritânia",
+        "p": 7
+      },
+      {
+        "r": "Togo",
+        "p": 7
+      },
+      {
+        "r": "Benin",
+        "p": 7
+      },
+      {
+        "r": "Gâmbia",
+        "p": 7
+      },
+      {
+        "r": "Eritreia",
+        "p": 8
+      },
+      {
+        "r": "Djibuti",
+        "p": 8
+      },
+      {
+        "r": "Burundi",
+        "p": 8
+      },
+      {
+        "r": "Malawi",
+        "p": 8,
+        "alias": [
+          "malaui"
+        ]
+      },
+      {
+        "r": "Lesoto",
+        "p": 8
+      },
+      {
+        "r": "Seicheles",
+        "p": 8
+      },
+      {
+        "r": "Maurício",
+        "p": 8,
+        "alias": [
+          "mauricia",
+          "ilhas mauricio"
+        ]
+      },
+      {
+        "r": "República Centro-Africana",
+        "p": 8
+      },
+      {
+        "r": "Essuatíni",
+        "p": 9,
+        "alias": [
+          "eswatini",
+          "suazilandia"
+        ]
+      },
+      {
+        "r": "Comores",
+        "p": 9
+      }
+    ],
+    "mensagens": {
+      "congo": "Qual Congo? Tem a República do Congo e a República Democrática do Congo."
+    }
+  },
+  {
+    "id": "paises-asia",
+    "pergunta": "Cite um país da Ásia.",
+    "categoria": "geografia",
+    "respostas": [
+      {
+        "r": "China",
+        "p": 1
+      },
+      {
+        "r": "Japão",
+        "p": 1
+      },
+      {
+        "r": "Índia",
+        "p": 1
+      },
+      {
+        "r": "Coreia do Sul",
+        "p": 2
+      },
+      {
+        "r": "Rússia",
+        "p": 2
+      },
+      {
+        "r": "Tailândia",
+        "p": 3
+      },
+      {
+        "r": "Israel",
+        "p": 3
+      },
+      {
+        "r": "Arábia Saudita",
+        "p": 3
+      },
+      {
+        "r": "Coreia do Norte",
+        "p": 3
+      },
+      {
+        "r": "Vietnã",
+        "p": 3
+      },
+      {
+        "r": "Indonésia",
+        "p": 3
+      },
+      {
+        "r": "Filipinas",
+        "p": 3
+      },
+      {
+        "r": "Irã",
+        "p": 4
+      },
+      {
+        "r": "Iraque",
+        "p": 4
+      },
+      {
+        "r": "Afeganistão",
+        "p": 4
+      },
+      {
+        "r": "Paquistão",
+        "p": 4
+      },
+      {
+        "r": "Turquia",
+        "p": 4
+      },
+      {
+        "r": "Catar",
+        "p": 4,
+        "alias": [
+          "qatar"
+        ]
+      },
+      {
+        "r": "Emirados Árabes Unidos",
+        "p": 4,
+        "alias": [
+          "emirados",
+          "eau"
+        ]
+      },
+      {
+        "r": "Singapura",
+        "p": 5,
+        "alias": [
+          "cingapura"
+        ]
+      },
+      {
+        "r": "Malásia",
+        "p": 5
+      },
+      {
+        "r": "Síria",
+        "p": 5
+      },
+      {
+        "r": "Líbano",
+        "p": 5
+      },
+      {
+        "r": "Nepal",
+        "p": 5
+      },
+      {
+        "r": "Mongólia",
+        "p": 5
+      },
+      {
+        "r": "Camboja",
+        "p": 6
+      },
+      {
+        "r": "Bangladesh",
+        "p": 6
+      },
+      {
+        "r": "Sri Lanka",
+        "p": 6
+      },
+      {
+        "r": "Jordânia",
+        "p": 6
+      },
+      {
+        "r": "Kuwait",
+        "p": 6,
+        "alias": [
+          "kuaite"
+        ]
+      },
+      {
+        "r": "Taiwan",
+        "p": 6
+      },
+      {
+        "r": "Cazaquistão",
+        "p": 6
+      },
+      {
+        "r": "Iêmen",
+        "p": 6
+      },
+      {
+        "r": "Palestina",
+        "p": 6
+      },
+      {
+        "r": "Mianmar",
+        "p": 7,
+        "alias": [
+          "birmania"
+        ]
+      },
+      {
+        "r": "Laos",
+        "p": 7
+      },
+      {
+        "r": "Omã",
+        "p": 7
+      },
+      {
+        "r": "Maldivas",
+        "p": 7
+      },
+      {
+        "r": "Uzbequistão",
+        "p": 7
+      },
+      {
+        "r": "Geórgia",
+        "p": 7
+      },
+      {
+        "r": "Armênia",
+        "p": 7
+      },
+      {
+        "r": "Azerbaijão",
+        "p": 7
+      },
+      {
+        "r": "Timor-Leste",
+        "p": 7,
+        "alias": [
+          "timor"
+        ]
+      },
+      {
+        "r": "Butão",
+        "p": 8
+      },
+      {
+        "r": "Brunei",
+        "p": 8
+      },
+      {
+        "r": "Bahrein",
+        "p": 8,
+        "alias": [
+          "barem"
+        ]
+      },
+      {
+        "r": "Quirguistão",
+        "p": 9
+      },
+      {
+        "r": "Tajiquistão",
+        "p": 9
+      },
+      {
+        "r": "Turcomenistão",
+        "p": 9
+      },
+      {
+        "r": "Chipre",
+        "p": 9
+      }
+    ],
+    "mensagens": {
+      "coreia": "Qual Coreia? Do Sul ou do Norte?"
+    }
+  },
+  {
+    "id": "sedes-olimpiadas",
+    "pergunta": "Cite uma cidade que já sediou os Jogos Olímpicos de Verão.",
+    "categoria": "esporte",
+    "respostas": [
+      {
+        "r": "Rio de Janeiro",
+        "p": 1,
+        "alias": [
+          "rio"
+        ]
+      },
+      {
+        "r": "Londres",
+        "p": 1
+      },
+      {
+        "r": "Pequim",
+        "p": 2,
+        "alias": [
+          "beijing"
+        ]
+      },
+      {
+        "r": "Paris",
+        "p": 2
+      },
+      {
+        "r": "Atenas",
+        "p": 2
+      },
+      {
+        "r": "Tóquio",
+        "p": 2
+      },
+      {
+        "r": "Los Angeles",
+        "p": 3
+      },
+      {
+        "r": "Barcelona",
+        "p": 3
+      },
+      {
+        "r": "Sydney",
+        "p": 3,
+        "alias": [
+          "sidney"
+        ]
+      },
+      {
+        "r": "Atlanta",
+        "p": 4
+      },
+      {
+        "r": "Moscou",
+        "p": 5
+      },
+      {
+        "r": "Seul",
+        "p": 5
+      },
+      {
+        "r": "Roma",
+        "p": 5
+      },
+      {
+        "r": "Berlim",
+        "p": 5
+      },
+      {
+        "r": "Montreal",
+        "p": 6
+      },
+      {
+        "r": "Munique",
+        "p": 6
+      },
+      {
+        "r": "Cidade do México",
+        "p": 6
+      },
+      {
+        "r": "Amsterdã",
+        "p": 7,
+        "alias": [
+          "amsterdam"
+        ]
+      },
+      {
+        "r": "Helsinque",
+        "p": 8,
+        "alias": [
+          "helsinki"
+        ]
+      },
+      {
+        "r": "Melbourne",
+        "p": 8
+      },
+      {
+        "r": "Estocolmo",
+        "p": 8
+      },
+      {
+        "r": "Antuérpia",
+        "p": 9
+      },
+      {
+        "r": "St. Louis",
+        "p": 9,
+        "alias": [
+          "saint louis"
+        ]
+      }
+    ]
   }
 ]
