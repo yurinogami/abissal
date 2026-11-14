@@ -26,7 +26,7 @@ export function htmlRevelacao(pergunta: Pergunta, estado: EstadoPergunta, ultima
   }
 
   const raras = maisRaras(pergunta, 3)
-    .map((r) => `<li><span>${esc(r.r)}</span><span class="raras-pontos">${pts(r.p)} ·${esc(metros(pontosParaMetros(r.p)))}</span></li>`)
+    .map((r) => `<li><span>${esc(r.r)}</span><span class="raras-pontos">${pts(r.p)} · ${esc(metros(pontosParaMetros(r.p)))}</span></li>`)
     .join("");
 
   return `

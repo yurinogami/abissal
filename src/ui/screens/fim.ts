@@ -1,10 +1,12 @@
-import { type Partida, profundidadeDaPartida } from "../../game/engine";
+import { numeroDoDia } from "../../game/daily";
+import { type Partida, pontosPorPergunta, profundidadeDaPartida } from "../../game/engine";
 import { pontosParaMetros, raridade, zonaDaProfundidade } from "../../game/scoring";
+import { enderecoDoSite, textoCompartilhamento } from "../../game/share";
 import type { Pergunta } from "../../game/tipos";
 import { criarLume, FALAS } from "../components/lume";
 import { criarMedidor } from "../components/medidorProfundidade";
 import { definirProfundidade } from "../components/oceano";
-import { definirTitulo, esc, metros, pts } from "../dom";
+import { copiarTexto, definirTitulo, esc, metros, pts } from "../dom";
 import { navegar } from "../router";
 
 /** Tela de fim de partida (seção 5.5). */
@@ -22,7 +24,7 @@ export function renderizarFim(raiz: HTMLElement, partida: Partida, perguntas: Pe
         <li class="resumo-item raridade-${raridade(p)}">
           <span class="resumo-pergunta">${esc(perguntas[i].pergunta)}</span>
           <span class="resumo-resposta">${resposta}</span>
-          <span class="resumo-pontos">${pts(p)} ·${esc(metros(pontosParaMetros(p)))}</span>
+          <span class="resumo-pontos">${pts(p)} · ${esc(metros(pontosParaMetros(p)))}</span>
         </li>`;
     })
     .join("");
@@ -31,14 +33,16 @@ export function renderizarFim(raiz: HTMLElement, partida: Partida, perguntas: Pe
     <section class="tela tela-fim">
       <h1 tabindex="-1" class="sr-only">Resultado do mergulho</h1>
       <div class="cartao fim-total">
-        <p class="rotulo">${partida.modo === "diario" ? "Mergulho do dia" : "Mergulho ilimitado"}</p>
+        <p class="rotulo">${partida.modo === "diario" ? `Mergulho do dia #${numeroDoDia(partida.data)}` : "Mergulho ilimitado"}</p>
         <p class="destaque-numero">${esc(metros(total))}</p>
         <p class="fim-zona">${esc(zona.nome)} <span>(${esc(zona.nomeCientifico)})</span></p>
         <p class="fim-titulo">${esc(zona.titulo)}</p>
       </div>
       <ol class="resumo">${resumo}</ol>
       <div class="acoes">
-        <button type="button" class="botao botao-principal" data-acao="ilimitado">Jogar ilimitado</button>
+        <button type="button" class="botao botao-principal" data-acao="copiar">Copiar resultado</button>
+        <p class="copiar-aviso" aria-live="polite"></p>
+        <button type="button" class="botao botao-secundario" data-acao="ilimitado">Jogar ilimitado</button>
         <a class="botao botao-secundario" href="#inicio">Voltar ao início</a>
       </div>
     </section>
@@ -49,5 +53,18 @@ export function renderizarFim(raiz: HTMLElement, partida: Partida, perguntas: Pe
   const medidor = criarMedidor();
   raiz.querySelector(".fim-total")!.after(medidor.elemento);
   requestAnimationFrame(() => requestAnimationFrame(() => medidor.atualizar(total)));
+
   raiz.querySelector('[data-acao="ilimitado"]')!.addEventListener("click", () => navegar("#ilimitado"));
+
+  const aviso = raiz.querySelector<HTMLElement>(".copiar-aviso")!;
+  raiz.querySelector('[data-acao="copiar"]')!.addEventListener("click", async () => {
+    const texto = textoCompartilhamento({
+      modo: partida.modo,
+      numeroDia: numeroDoDia(partida.data),
+      pontosPorPergunta: pontosPorPergunta(partida),
+      endereco: enderecoDoSite(location.href),
+    });
+    const ok = await copiarTexto(texto);
+    aviso.textContent = ok ? "Copiado! Agora é só colar onde quiser." : "Não deu para copiar. Seu navegador bloqueou a área de transferência.";
+  });
 }

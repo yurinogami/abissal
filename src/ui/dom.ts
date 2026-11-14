@@ -24,6 +24,36 @@ export function metros(m: number): string {
   return `${m.toLocaleString("pt-BR")} m`;
 }
 
+/**
+ * Copia texto para a área de transferência. Usa a API moderna e, se ela não
+ * existir ou for negada (HTTP, navegador antigo), cai para o execCommand.
+ */
+export async function copiarTexto(texto: string): Promise<boolean> {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(texto);
+      return true;
+    }
+  } catch {
+    // tenta o método antigo abaixo
+  }
+  const area = document.createElement("textarea");
+  area.value = texto;
+  area.setAttribute("readonly", "");
+  area.style.position = "fixed";
+  area.style.opacity = "0";
+  document.body.append(area);
+  area.select();
+  let ok = false;
+  try {
+    ok = document.execCommand("copy");
+  } catch {
+    ok = false;
+  }
+  area.remove();
+  return ok;
+}
+
 /** "1 pt", "5 pts". */
 export function pts(n: number): string {
   return `${n} ${n === 1 ? "pt" : "pts"}`;
