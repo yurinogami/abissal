@@ -189,4 +189,43 @@ describe("banco de perguntas", () => {
       }
     }
   });
+
+  it("tem pelo menos 100 perguntas (meta da Fase 5)", () => {
+    expect(BANCO.length).toBeGreaterThanOrEqual(100);
+  });
+
+  it("nunca aceita uma tentativa que tem fala especial do Lume", () => {
+    for (const q of BANCO) {
+      for (const [chave, mensagem] of Object.entries(q.mensagens ?? {})) {
+        expect(checarResposta(q, chave), `${q.id}: "${chave}"`).toEqual({ tipo: "erro", mensagem });
+      }
+    }
+  });
+
+  it("não aceita erros parecidos com respostas certas", () => {
+    expect(aceita("meses-31-dias", "Junho")).toBeNull();
+    expect(aceita("meses-31-dias", "Julho")).toBe("Julho");
+    expect(aceita("libertadores-brasileiros", "Atlético-PR")).toBeNull();
+    expect(aceita("libertadores-brasileiros", "Atlético-GO")).toBeNull();
+    expect(aceita("libertadores-brasileiros", "Atlético-MG")).toBe("Atlético-MG");
+    expect(aceita("maiores-paises", "Áustria")).toBeNull();
+    expect(aceita("continentes", "África do Sul")).toBeNull();
+    expect(aceita("halogenios", "Cromo")).toBeNull();
+    expect(aceita("elementos-letra-c", "Bromo")).toBeNull();
+    expect(aceita("metais-alcalinos", "Cério")).toBeNull();
+  });
+
+  it("aceita símbolos químicos nas perguntas de família", () => {
+    expect(aceita("metais-alcalinos", "Na")).toBe("Sódio");
+    expect(aceita("elementos-letra-c", "Cu")).toBe("Cobre");
+    expect(aceita("halogenios", "Cl")).toBe("Cloro");
+  });
+
+  it("entende perguntas com prefixo opcional", () => {
+    expect(aceita("fases-lua", "lua cheia")).toBe("Cheia");
+    expect(aceita("vitaminas", "vitamina C")).toBe("Vitamina C");
+    expect(aceita("vitaminas", "C")).toBe("Vitamina C");
+    expect(aceita("vitaminas", "B12")).toBe("Vitamina B12");
+    expect(aceita("pixar", "Toy Story 3")).toBe("Toy Story");
+  });
 });
