@@ -14,8 +14,9 @@ npm run build   # gera a versão de produção em dist/
 
 ## Publicação
 
-O site é estático e publicado no Cloudflare Pages a cada merge na `main`
-(comando de build `npm run build`, pasta de saída `dist`).
+O site é estático e publicado no Cloudflare Workers (arquivos estáticos) a cada
+merge na `main`: build `npm run build`, deploy `npx wrangler deploy` (configuração
+em `wrangler.jsonc`). Outras branches ganham um link de prévia.
 
 ## Perguntas
 
